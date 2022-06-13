@@ -1,0 +1,341 @@
+{
+    "name": "us-anes-1948TS",
+    "type": "RECORD",
+    "fields": [
+        {
+            "name": "VVERSION",
+            "type": "INTEGER",
+            "description": "NES VERSION NUMBER"
+        },
+        {
+            "name": "VDSETNO",
+            "type": "STRING",
+            "description": "DATASET NUMBER  "
+        },
+        {
+            "name": "V480001",
+            "type": "INTEGER",
+            "description": "ICPSR ARCHIVE NUMBER"
+        },
+        {
+            "name": "V480002",
+            "type": "INTEGER",
+            "description": "INTERVIEW NUMBER"
+        },
+        {
+            "name": "V480003",
+            "type": "INTEGER",
+            "description": "POP CLASSIFICATION"
+        },
+        {
+            "name": "V480004",
+            "type": "INTEGER",
+            "description": "CODER"
+        },
+        {
+            "name": "V480005",
+            "type": "INTEGER",
+            "description": "NUMBER OF CALLS TO R"
+        },
+        {
+            "name": "V480006",
+            "type": "INTEGER",
+            "description": "R REMEMBER PREVIOUS INT"
+        },
+        {
+            "name": "V480007",
+            "type": "INTEGER",
+            "description": "INTR INTERVIEW THIS R"
+        },
+        {
+            "name": "V480008",
+            "type": "INTEGER",
+            "description": "PRVS PRE-ELCTN R REINT"
+        },
+        {
+            "name": "V480009",
+            "type": "INTEGER",
+            "description": "R INT IN PRE/POSTELCTN"
+        },
+        {
+            "name": "V480010",
+            "type": "INTEGER",
+            "description": "RENT CNTRL KEPT/DROPPED"
+        },
+        {
+            "name": "V480011",
+            "type": "INTEGER",
+            "description": "GOVT CONTROL PRICES"
+        },
+        {
+            "name": "V480012",
+            "type": "INTEGER",
+            "description": "WHAT TO DO W TFT-HT ACT"
+        },
+        {
+            "name": "V480013",
+            "type": "INTEGER",
+            "description": "PRESLELCTN OTCM SURPRISE"
+        },
+        {
+            "name": "V480014a",
+            "type": "INTEGER",
+            "description": "WHY PPL VTD FOR TRUMAN 1"
+        },
+        {
+            "name": "V480014b",
+            "type": "INTEGER",
+            "description": "WHY PPL VTD FOR TRUMAN 2"
+        },
+        {
+            "name": "V480015a",
+            "type": "INTEGER",
+            "description": "WHY PPL VTD AGNST TRUMAN 1"
+        },
+        {
+            "name": "V480015b",
+            "type": "INTEGER",
+            "description": "WHY PPL VTD AGNST TRUMAN 2"
+        },
+        {
+            "name": "V480016a",
+            "type": "INTEGER",
+            "description": "WHY PPL VTD FOR DEWEY 1"
+        },
+        {
+            "name": "V480016b",
+            "type": "INTEGER",
+            "description": "WHY PPL VTD FOR DEWEY 2"
+        },
+        {
+            "name": "V480017a",
+            "type": "INTEGER",
+            "description": "WHY PPL VTD AGNST DEWEY 1"
+        },
+        {
+            "name": "V480017b",
+            "type": "INTEGER",
+            "description": "WHY PPL VTD AGNST DEWEY 2"
+        },
+        {
+            "name": "V480018",
+            "type": "INTEGER",
+            "description": "DID R VOTE/FOR WHOM"
+        },
+        {
+            "name": "V480019",
+            "type": "INTEGER",
+            "description": "WN DECIDE FOR WHOM TO VT"
+        },
+        {
+            "name": "V480020",
+            "type": "INTEGER",
+            "description": "CNSD VT FOR SOMEONE ELSE"
+        },
+        {
+            "name": "V480021a",
+            "type": "INTEGER",
+            "description": "XWHY DID NOT VT FOR HIM 1"
+        },
+        {
+            "name": "V480021b",
+            "type": "INTEGER",
+            "description": "XWHY DID NOT VT FOR HIM 2"
+        },
+        {
+            "name": "V480022a",
+            "type": "INTEGER",
+            "description": "WHY VT THE WAY YOU DID 1"
+        },
+        {
+            "name": "V480022b",
+            "type": "INTEGER",
+            "description": "WHY VT THE WAY YOU DID 2"
+        },
+        {
+            "name": "V480023",
+            "type": "INTEGER",
+            "description": "VOTED STRAIGHT TICKET"
+        },
+        {
+            "name": "V480024",
+            "type": "INTEGER",
+            "description": "R NOT VT-IF VT,FOR WHOM"
+        },
+        {
+            "name": "V480025a",
+            "type": "INTEGER",
+            "description": "R NOT VT-WHY DID NOT VT 1"
+        },
+        {
+            "name": "V480025b",
+            "type": "INTEGER",
+            "description": "R NOT VT-WHY DID NOT VT 2"
+        },
+        {
+            "name": "V480026",
+            "type": "INTEGER",
+            "description": "R NOT VT-WAS R REG TO VT"
+        },
+        {
+            "name": "V480027",
+            "type": "INTEGER",
+            "description": "VTD IN PRVS PRESL ELCTN"
+        },
+        {
+            "name": "V480028",
+            "type": "INTEGER",
+            "description": "VTD FOR WHOM IN 1944"
+        },
+        {
+            "name": "V480029",
+            "type": "INTEGER",
+            "description": "OCCUPATION OF HEAD"
+        },
+        {
+            "name": "V480030",
+            "type": "INTEGER",
+            "description": "HEAD BELONG TO LBR UN"
+        },
+        {
+            "name": "V480031a",
+            "type": "INTEGER",
+            "description": "GRPS IDENTIFIED W TRUMAN 1"
+        },
+        {
+            "name": "V480031b",
+            "type": "INTEGER",
+            "description": "GRPS IDENTIFIED W TRUMAN 2"
+        },
+        {
+            "name": "V480031c",
+            "type": "INTEGER",
+            "description": "GRPS IDENTIFIED W TRUMAN 3"
+        },
+        {
+            "name": "V480032a",
+            "type": "INTEGER",
+            "description": "GRPS IDENTIFIED W DEWEY 1"
+        },
+        {
+            "name": "V480032b",
+            "type": "INTEGER",
+            "description": "GRPS IDENTIFIED W DEWEY 2"
+        },
+        {
+            "name": "V480032c",
+            "type": "INTEGER",
+            "description": "GRPS IDENTIFIED W DEWEY 3"
+        },
+        {
+            "name": "V480033a",
+            "type": "INTEGER",
+            "description": "ISSUES CONNECTED W TRMN 1"
+        },
+        {
+            "name": "V480033b",
+            "type": "INTEGER",
+            "description": "ISSUES CONNECTED W TRMN 2"
+        },
+        {
+            "name": "V480034a",
+            "type": "INTEGER",
+            "description": "ISSUES CONNECTED W DEWEY 1"
+        },
+        {
+            "name": "V480034b",
+            "type": "INTEGER",
+            "description": "ISSUES CONNECTED W DEWEY 2"
+        },
+        {
+            "name": "V480035a",
+            "type": "INTEGER",
+            "description": "PERSONAL ATTRIBUTE TRMN 1"
+        },
+        {
+            "name": "V480035b",
+            "type": "INTEGER",
+            "description": "PERSONAL ATTRIBUTE TRMN 2"
+        },
+        {
+            "name": "V480036a",
+            "type": "INTEGER",
+            "description": "PERSONAL ATTRIBUTE DEWEY 1"
+        },
+        {
+            "name": "V480036b",
+            "type": "INTEGER",
+            "description": "PERSONAL ATTRIBUTE DEWEY 2"
+        },
+        {
+            "name": "V480037",
+            "type": "INTEGER",
+            "description": "CMPN INCIDENTS MENTIONED"
+        },
+        {
+            "name": "V480038",
+            "type": "INTEGER",
+            "description": "41-PRESLELCTN PLAN TO VT"
+        },
+        {
+            "name": "V480039",
+            "type": "INTEGER",
+            "description": "41-PLAN TO VT REP/DEM"
+        },
+        {
+            "name": "V480040",
+            "type": "INTEGER",
+            "description": "41-USA'S CNCRN W OTHERS"
+        },
+        {
+            "name": "V480041",
+            "type": "INTEGER",
+            "description": "41-SATISD USA TWRD RUSS"
+        },
+        {
+            "name": "V480042",
+            "type": "INTEGER",
+            "description": "41-INFORMATION LEVEL"
+        },
+        {
+            "name": "V480043",
+            "type": "INTEGER",
+            "description": "41-USA GV IN,AGRT RUSS"
+        },
+        {
+            "name": "V480044",
+            "type": "INTEGER",
+            "description": "41-USA-RUSS AGRT VIA U.N"
+        },
+        {
+            "name": "V480045",
+            "type": "INTEGER",
+            "description": "SEX OF RESPONDENT"
+        },
+        {
+            "name": "V480046",
+            "type": "INTEGER",
+            "description": "RACE OF RESPONDENT"
+        },
+        {
+            "name": "V480047",
+            "type": "INTEGER",
+            "description": "AGE OF RESPONDENT"
+        },
+        {
+            "name": "V480048",
+            "type": "INTEGER",
+            "description": "EDUCATION OF RESPONDENT"
+        },
+        {
+            "name": "V480049",
+            "type": "INTEGER",
+            "description": "TOTAL 1948 INCOME"
+        },
+        {
+            "name": "V480050",
+            "type": "INTEGER",
+            "description": "RELIGIOUS PREFERENCE"
+        }
+    ]
+}

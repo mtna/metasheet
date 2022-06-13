@@ -1,0 +1,305 @@
+#!/usr/bin/env python
+import argparse
+import glob
+import os
+import re
+import requests
+import sys
+
+from metasheet import repository
+from metasheet.serializers import aria
+from metasheet.serializers import aria_changes
+from metasheet.serializers import bq
+from metasheet.serializers import ddi
+from metasheet.serializers import mockaroo
+from metasheet.serializers import py
+from metasheet.serializers import rds
+from metasheet.serializers import rml
+from metasheet.serializers import sts
+from metasheet.serializers import sql
+
+args = None
+record_layouts = None
+classifications = None
+concordances = None
+
+def get_classifications():
+    """Return the list of classifications"""
+    global args, classifications
+    if not classifications:
+        classifications = []
+        for resource in repository.getWorkspace().getResources(type="classification"):
+            if args.classifications:
+                if not re.search(args.classifications, resource.getId()):
+                    print(f"Skipping classification {resource.getId()}")
+                    continue
+            classifications.append(resource)
+    return classifications
+
+def get_concordances():
+    """Return the list of concordances"""
+    global args, concordances
+    if not concordances:
+        concordances = []
+        for resource in repository.getWorkspace().getResources(type="concordance"):
+            concordances.append(resource)
+    return concordances
+
+def get_record_layouts():
+    """Return the list of record layouts to process"""
+    global args, record_layouts
+    if not record_layouts:
+        record_layouts = []
+        for resource in repository.getWorkspace().getResources(type="record"):
+            if args.record_layouts:
+                if not re.search(args.record_layouts, resource.getId()):
+                    print(f"Skipping record layout {resource.getId()}")
+                    continue
+            record_layouts.append(resource)
+    return record_layouts
+
+def main():
+    global args
+    """Main"""
+    parser = argparse.ArgumentParser()
+    parser.add_argument("infile", nargs='*', default=['metasheet.xlsx'])
+    parser.add_argument("-a", "--all", action='store_true', help="Generates all outputs")
+    parser.add_argument("-aria", action='store_true', help="Generates output for Aria")
+    parser.add_argument("-bq", action='store_true', help="Generates output for BigQuery")
+    parser.add_argument("-c", "--config", help="The configuration file to use (overrides default)")
+    parser.add_argument("-cx", "--extensions", help="Configuration extension (adds to default)")
+    parser.add_argument("-cl","--classifications", help="Only process classifications with matching identifier")
+    parser.add_argument("-ddi", help="Generates output for DDI Codebook")
+    parser.add_argument("--dump", help="Resources to dump (for debugging)")
+    parser.add_argument("-gsheet", help="Google sheet id (for download)")
+    parser.add_argument("-lang", "--language", help="The language to use for metadata / serializer (2-letter ISO code)")
+    parser.add_argument("-mock", "--mockaroo", action='store_true', help="Generates output for Mockaroo")
+    parser.add_argument("-mockopts", "--mockaroo_options", action='append', dest="mockaroo_options", default=[],
+                        help="Mockaroo serializer option(s)")
+    parser.add_argument("-mysql", action='store_true', help="[deprecated] Generates output for MySql")
+    parser.add_argument("-pandas", nargs="*", help="Generates output for Python Pandas (fixed/csv), ")
+    parser.add_argument("-rds", action='store_true', help="Generates output for MTNA Rich Data Services")
+    parser.add_argument("-rl","--record_layouts", help="Only process record layouts with matching identifier")
+    parser.add_argument("-rml", action='store_true',
+                        help="Generates output for MTNA Resource Modeling Language")
+    parser.add_argument("-rmlopts", "--rml_options", action='append', dest="rml_options", default=[],
+                        help="RML serializer option(s)")
+    parser.add_argument("-sql", nargs="*", help="Generates SQL output. Valide options are athena, mysql, postgres, vertica")
+    parser.add_argument("-sts", action='store_true', help="Generates output for Stat/Transfer")
+    parser.add_argument("-vertica", action='store_true', help="[deprecated] Generates output for Vertica SQL")
+
+    parser.add_argument("-save", help="Save workspace to pickle file", nargs='?', const="workspace.p", type=str)
+    parser.add_argument("-load", help="Load workspace from pickle file",  nargs='?', const="workspace.p", type=str)
+    parser.add_argument("-o","--out", help="Output base name", nargs='?', default="metasheet", type=str)
+    args = parser.parse_args()
+    print(args)
+
+    # args check
+    if args.mysql:
+        print(f"ERROR: -mysql option is deprecated. Use -sql mysql instead.")
+        return -1
+    if args.vertica:
+        print(f"ERROR: -vertica option is deprecated. Use -sql vertica instead.")
+        return -1
+    if args.sql:
+        for flavor in args.sql:
+            if flavor not in sql.get_flavors():
+                print(f"ERROR: Unsupported or invalid SQL flavor {flavor}")
+                return -1
+
+    # base output filename
+    base_path = args.out
+
+    # config extensions
+    if args.extensions:
+        repository.loadExtendedConfig(args.extensions)
+        print(repository.getConfig())
+
+
+    # LOAD
+    if args.load:
+        repository.load(args.load)
+    else: 
+        # Google sheet download
+        if args.gsheet:
+            url = f"https://docs.google.com/spreadsheets/d/{args.gsheet}/export?format=xlsx"
+            print(f"Downloading from {url}")
+            response = requests.get(url)
+            if response.status_code == 200:
+                with open(args.infile[0], 'wb') as file:
+                    file.write(response.content)
+                    file.close()            
+        # parse spreadsheet(s)
+        files = []
+        for entry in args.infile:
+            for file in glob.glob(entry):
+                files.append(file)
+            if len(files)>0:
+                repository.parseFiles(files)
+            else:
+                print("No matching input file(s) found....")
+                exit(1)
+        pass
+    workspace = repository.getWorkspace()
+
+    # dump workspace
+    if args.dump:
+        if "class" in args.dump:
+            workspace.dump(type="classification")
+        if "code" in args.dump:
+            workspace.dump(type="code")
+        if "con" in args.dump:
+            workspace.dump(type="concordance")
+        if "map" in args.dump:
+            workspace.dump(type="map")
+        if "rec" in args.dump:
+            workspace.dump(type="record")
+        if "lay" in args.dump:
+            workspace.dump(type="layout")
+        if "lev" in args.dump:
+            workspace.dump(type="level")
+        if "var" in args.dump:
+            workspace.dump(type="variable")
+
+    # Workspace stats
+    print()
+    workspace.stats()
+
+    if args.save:
+        repository.save(args.save)
+
+    # Outputs
+    print(base_path)
+
+    if args.aria:
+        print()
+        # classifications (stand alone)
+        for resource in get_classifications():
+            directory = os.path.join(f"{resource.getBank()}.{resource.getId()}")
+            if not os.path.isdir(directory):
+                os.makedirs(directory)
+            # versions
+            with open(os.path.join(directory,"versions.csv"), 'w', encoding="utf-8") as outfile:
+                aria.generateClassificationVersions(resource, workspace, file=outfile)
+            # levels
+            with open(os.path.join(directory,"levels.csv"), 'w', encoding="utf-8") as outfile:
+                aria.generateClassificationLevels(resource, workspace, file=outfile)
+            # codes
+            with open(os.path.join(directory,"codes.csv"), 'w', encoding="utf-8") as outfile:
+                aria.generateClassificationCodes(resource, workspace, file=outfile)
+            # code properties
+            with open(os.path.join(directory,"properties.csv"), 'w', encoding="utf-8") as outfile:
+                aria.generateClassificationCodePropertiesValues(resource, workspace, file=outfile)
+        # concordances
+        for resource in get_concordances():
+            # concordances
+            with open(f"{resource.getId()}.maps.csv", 'w', encoding="utf-8") as outfile:
+                aria.generateConcordance(resource, workspace, file=outfile)
+        # classification versions with changes
+        parents = set()
+        for resource in get_classifications():
+            parent = resource.getPropertyValue("parent")
+            if parent:
+                parents.add(parent)
+        for parent in parents:
+            directory = os.path.join(f"{parent}")
+            if not os.path.isdir(directory):
+                os.makedirs(directory)
+            aria_changes.generateClassificationChanges(parent, workspace, directory)
+
+    if args.bq or args.all:
+        print()
+        for resource in get_record_layouts():
+            outfile = open(base_path+'.'+resource.getId()+'.bq.json', 'w')
+            try:
+                bq.generateRecordLayout(resource, workspace, format="fixed", file=outfile)
+            except:
+                print("*** Unexpected error:", sys.exc_info()[0])
+            outfile.close()
+
+    if args.ddi or args.all:
+        print()
+        if args.ddi:
+            version = args.ddi
+        else:
+            version = "2.5"
+        for resource in get_record_layouts():
+            extension = '.ddi.xml'
+            if args.language: extension = f".ddi.{args.language}.xml"
+            outfile = open(base_path+'.'+resource.getId()+extension, 'w', encoding="utf-8")
+            ddi.generateRecordLayout(resource, workspace, version=version, lang=args.language, file=outfile)
+            outfile.close()
+
+    if args.mockaroo or args.all:
+        print()
+        for resource in get_record_layouts():
+            outfile = open(base_path+'.'+resource.getId()+'.mockaroo.json', 'w', encoding="utf-8")
+            mockaroo.generateRecordLayout(resource, workspace, file=outfile, options=args.mockaroo_options)
+            outfile.close()
+
+
+    if args.pandas or args.all:
+        print()
+        if args.all:
+            formats = ('fixed','csv')
+        else:
+            formats = args.pandas
+        for resource in get_record_layouts():
+            for format in formats:
+                outfile = open(base_path+'.'+resource.getId()+'.'+format+'.py', 'w', encoding="utf-8")
+                py.generatePandasRecordLayout(resource, workspace, format=format, file=outfile)
+                outfile.close()
+
+
+    if args.rds or args.all:
+        print()
+        for resource in get_record_layouts():
+            outfile = open(base_path + '.' + resource.getId() + '.rds.json', 'w', encoding="utf-8")
+            rds.generateRecordLayout(resource, workspace, file=outfile)
+            outfile.close()
+
+    if args.rml:
+        print()
+        if workspace.getResources(type="classification"):
+            outfile = open(base_path+'.classifications.rml', 'w', encoding="utf-8")
+            rml.generateClassifications(workspace, file=outfile, options=args.rml_options)
+            outfile.close()
+
+        if workspace.getResources(type="variable"):
+            outfile = open(base_path+'.variables.rml', 'w', encoding="utf-8")
+            rml.generateVariables(workspace, file=outfile, options=args.rml_options)
+            outfile.close()
+
+        if get_record_layouts():
+            outfile = open(base_path+'.record_layouts.rml', 'w', encoding="utf-8")
+            rml.generateRecordLayouts(workspace, file=outfile, options=args.rml_options)
+            outfile.close()
+
+        if workspace.getResources(type="rule"):
+            outfile = open(base_path+'.rules.rml', 'w', encoding="utf-8")
+            rml.generateRules(workspace, file=outfile, options=args.rml_options)
+            outfile.close()
+
+    if args.sql or args.all:
+        print()
+        if args.all:
+            sql_flavors = sql.get_flavors()
+        else:
+            sql_flavors = args.sql
+        for resource in get_record_layouts():
+            for sql_flavor in sql_flavors:
+                outfile = open(base_path+'.'+resource.getId()+'.'+sql_flavor+'.sql', 'w', encoding="utf-8")
+                sql.generateRecordLayout(sql_flavor, resource, workspace, file=outfile)
+                outfile.close()
+
+    if args.sts or args.all:
+        print()
+        for resource in get_record_layouts():
+            outfile = open(base_path+'.'+resource.getId()+'.sts', 'w', encoding="utf-8")
+            sts.generateRecordLayout(resource, workspace, format="fixed", file=outfile)
+            outfile.close()
+
+if __name__ == '__main__':
+    main()
+
+    

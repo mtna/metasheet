@@ -1,0 +1,608 @@
+<codeBook version="2.5" xmlns="ddi:codebook:2_5">
+    <stdyDscr>
+        <citation>
+            <titlStmt>
+                <titl>us-census-2010-h</titl>
+            </titlStmt>
+        </citation>
+    </stdyDscr>
+    <fileDscr ID="us-census-2010-h">
+        <fileTxt>
+            <fileName>us-census-2010-h</fileName>
+        </fileTxt>
+    </fileDscr>
+    <dataDscr>
+        <var ID="RECTYPE" files="us-census-2010-h" name="RECTYPE">
+            <location width="1"/>
+            <labl>Record Type</labl>
+            <catgry>
+                <catValu>H</catValu>
+                <labl>Household</labl>
+            </catgry>
+            <catgry>
+                <catValu>P</catValu>
+                <labl>Person</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="SERIALNO" dcml="0" files="us-census-2010-h" name="SERIALNO">
+            <location width="7"/>
+            <labl>Housing/Group Quarters (GQ) Unit Serial Number</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="STATE" files="us-census-2010-h" geog="Y" name="STATE">
+            <location width="2"/>
+            <labl>FIPS State Code</labl>
+            <catgry>
+                <catValu>01</catValu>
+                <labl>Alabama</labl>
+            </catgry>
+            <catgry>
+                <catValu>02</catValu>
+                <labl>Alaska</labl>
+            </catgry>
+            <catgry>
+                <catValu>04</catValu>
+                <labl>Arizona</labl>
+            </catgry>
+            <catgry>
+                <catValu>05</catValu>
+                <labl>Arkansas</labl>
+            </catgry>
+            <catgry>
+                <catValu>06</catValu>
+                <labl>California</labl>
+            </catgry>
+            <catgry>
+                <catValu>08</catValu>
+                <labl>Colorado</labl>
+            </catgry>
+            <catgry>
+                <catValu>09</catValu>
+                <labl>Connecticut</labl>
+            </catgry>
+            <catgry>
+                <catValu>10</catValu>
+                <labl>Delaware</labl>
+            </catgry>
+            <catgry>
+                <catValu>11</catValu>
+                <labl>District of Columbia</labl>
+            </catgry>
+            <catgry>
+                <catValu>12</catValu>
+                <labl>Florida</labl>
+            </catgry>
+            <catgry>
+                <catValu>13</catValu>
+                <labl>Georgia</labl>
+            </catgry>
+            <catgry>
+                <catValu>15</catValu>
+                <labl>Hawaii</labl>
+            </catgry>
+            <catgry>
+                <catValu>16</catValu>
+                <labl>Idaho</labl>
+            </catgry>
+            <catgry>
+                <catValu>17</catValu>
+                <labl>Illinois</labl>
+            </catgry>
+            <catgry>
+                <catValu>18</catValu>
+                <labl>Indiana</labl>
+            </catgry>
+            <catgry>
+                <catValu>19</catValu>
+                <labl>Iowa</labl>
+            </catgry>
+            <catgry>
+                <catValu>20</catValu>
+                <labl>Kansas</labl>
+            </catgry>
+            <catgry>
+                <catValu>21</catValu>
+                <labl>Kentucky</labl>
+            </catgry>
+            <catgry>
+                <catValu>22</catValu>
+                <labl>Louisiana</labl>
+            </catgry>
+            <catgry>
+                <catValu>23</catValu>
+                <labl>Maine</labl>
+            </catgry>
+            <catgry>
+                <catValu>24</catValu>
+                <labl>Maryland</labl>
+            </catgry>
+            <catgry>
+                <catValu>25</catValu>
+                <labl>Massachusetts</labl>
+            </catgry>
+            <catgry>
+                <catValu>26</catValu>
+                <labl>Michigan</labl>
+            </catgry>
+            <catgry>
+                <catValu>27</catValu>
+                <labl>Minnesota</labl>
+            </catgry>
+            <catgry>
+                <catValu>28</catValu>
+                <labl>Mississippi</labl>
+            </catgry>
+            <catgry>
+                <catValu>29</catValu>
+                <labl>Missouri</labl>
+            </catgry>
+            <catgry>
+                <catValu>30</catValu>
+                <labl>Montana</labl>
+            </catgry>
+            <catgry>
+                <catValu>31</catValu>
+                <labl>Nebraska</labl>
+            </catgry>
+            <catgry>
+                <catValu>32</catValu>
+                <labl>Nevada</labl>
+            </catgry>
+            <catgry>
+                <catValu>33</catValu>
+                <labl>New Hampshire</labl>
+            </catgry>
+            <catgry>
+                <catValu>34</catValu>
+                <labl>New Jersey</labl>
+            </catgry>
+            <catgry>
+                <catValu>35</catValu>
+                <labl>New Mexico</labl>
+            </catgry>
+            <catgry>
+                <catValu>36</catValu>
+                <labl>New York</labl>
+            </catgry>
+            <catgry>
+                <catValu>37</catValu>
+                <labl>North Carolina</labl>
+            </catgry>
+            <catgry>
+                <catValu>38</catValu>
+                <labl>North Dakota</labl>
+            </catgry>
+            <catgry>
+                <catValu>39</catValu>
+                <labl>Ohio</labl>
+            </catgry>
+            <catgry>
+                <catValu>40</catValu>
+                <labl>Oklahoma</labl>
+            </catgry>
+            <catgry>
+                <catValu>41</catValu>
+                <labl>Oregon</labl>
+            </catgry>
+            <catgry>
+                <catValu>42</catValu>
+                <labl>Pennsylvania</labl>
+            </catgry>
+            <catgry>
+                <catValu>44</catValu>
+                <labl>Rhode Island</labl>
+            </catgry>
+            <catgry>
+                <catValu>45</catValu>
+                <labl>South Carolina</labl>
+            </catgry>
+            <catgry>
+                <catValu>46</catValu>
+                <labl>South Dakota</labl>
+            </catgry>
+            <catgry>
+                <catValu>47</catValu>
+                <labl>Tennessee</labl>
+            </catgry>
+            <catgry>
+                <catValu>48</catValu>
+                <labl>Texas</labl>
+            </catgry>
+            <catgry>
+                <catValu>49</catValu>
+                <labl>Utah</labl>
+            </catgry>
+            <catgry>
+                <catValu>50</catValu>
+                <labl>Vermont</labl>
+            </catgry>
+            <catgry>
+                <catValu>51</catValu>
+                <labl>Virginia</labl>
+            </catgry>
+            <catgry>
+                <catValu>53</catValu>
+                <labl>Washington</labl>
+            </catgry>
+            <catgry>
+                <catValu>54</catValu>
+                <labl>West Virginia</labl>
+            </catgry>
+            <catgry>
+                <catValu>55</catValu>
+                <labl>Wisconsin</labl>
+            </catgry>
+            <catgry>
+                <catValu>56</catValu>
+                <labl>Wyoming</labl>
+            </catgry>
+            <catgry>
+                <catValu>72</catValu>
+                <labl>Puerto Rico</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="REGION" files="us-census-2010-h" geog="Y" name="REGION">
+            <location width="1"/>
+            <labl>Region Code</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Region not identified</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>Northeast</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>Midwest</labl>
+            </catgry>
+            <catgry>
+                <catValu>3</catValu>
+                <labl>South</labl>
+            </catgry>
+            <catgry>
+                <catValu>4</catValu>
+                <labl>West</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="DIVISION" files="us-census-2010-h" geog="Y" name="DIVISION">
+            <location width="1"/>
+            <labl>Division Code</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Division not identified</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>New England</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>Middle Atlantic</labl>
+            </catgry>
+            <catgry>
+                <catValu>3</catValu>
+                <labl>East North Central</labl>
+            </catgry>
+            <catgry>
+                <catValu>4</catValu>
+                <labl>West North Central</labl>
+            </catgry>
+            <catgry>
+                <catValu>5</catValu>
+                <labl>South Atlantic</labl>
+            </catgry>
+            <catgry>
+                <catValu>6</catValu>
+                <labl>East South Central</labl>
+            </catgry>
+            <catgry>
+                <catValu>7</catValu>
+                <labl>West South Central</labl>
+            </catgry>
+            <catgry>
+                <catValu>8</catValu>
+                <labl>Mountain</labl>
+            </catgry>
+            <catgry>
+                <catValu>9</catValu>
+                <labl>Pacific</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="PUMA" files="us-census-2010-h" geog="Y" name="PUMA">
+            <location width="5"/>
+            <labl>Public Use Microdata Area Code (PUMA)</labl>
+            <varFormat type="character"/>
+        </var>
+        <var ID="TOTAREA" dcml="0" files="us-census-2010-h" geog="Y" name="TOTAREA">
+            <location width="14"/>
+            <labl>Total Area of PUMA</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="LANDAREA" dcml="0" files="us-census-2010-h" geog="Y" name="LANDAREA">
+            <location width="14"/>
+            <labl>Land Area of PUMA</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="SUBSAMPL" dcml="0" files="us-census-2010-h" name="SUBSAMPL">
+            <location width="2"/>
+            <labl>Subsample number</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="HWEIGHT" dcml="0" files="us-census-2010-h" name="HWEIGHT" wgt="wgt">
+            <location width="2"/>
+            <labl>Housing unit weight</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="PERSONS" dcml="0" files="us-census-2010-h" name="PERSONS">
+            <location width="2"/>
+            <labl>Number of person records following this housing record</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="UNITTYPE" files="us-census-2010-h" name="UNITTYPE">
+            <location width="1"/>
+            <labl>Type of unit</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Housing unit</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>Group quarters</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="HSUBFLG" dcml="0" files="us-census-2010-h" name="HSUBFLG">
+            <location width="1"/>
+            <labl>Substitution Flag</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>No</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>Yes</labl>
+            </catgry>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="VACS" files="us-census-2010-h" name="VACS">
+            <location width="1"/>
+            <labl>Vacancy Status</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Not in universe (occupied or GQ)</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>For rent</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>Rented, not occupied</labl>
+            </catgry>
+            <catgry>
+                <catValu>3</catValu>
+                <labl>For sale only</labl>
+            </catgry>
+            <catgry>
+                <catValu>4</catValu>
+                <labl>Sold, not occupied</labl>
+            </catgry>
+            <catgry>
+                <catValu>5</catValu>
+                <labl>For seasonal, recreational or occasional use</labl>
+            </catgry>
+            <catgry>
+                <catValu>6</catValu>
+                <labl>For migrant workers</labl>
+            </catgry>
+            <catgry>
+                <catValu>7</catValu>
+                <labl>Other vacant</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="VACSA" dcml="0" files="us-census-2010-h" name="VACSA">
+            <location width="1"/>
+            <labl>Vacancy Status Allocation Flag</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="TENURE" files="us-census-2010-h" name="TENURE">
+            <location width="1"/>
+            <labl>Home Ownership</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Not in universe (vacant or GQ)</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>Owned by you or someone in this household with a mortgage or loan</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>Owned by you or someone in this household free and clear (without a mortgage or loan)</labl>
+            </catgry>
+            <catgry>
+                <catValu>3</catValu>
+                <labl>Rented</labl>
+            </catgry>
+            <catgry>
+                <catValu>4</catValu>
+                <labl>Occupied without payment of rent</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="TENUREA" dcml="0" files="us-census-2010-h" name="TENUREA">
+            <location width="1"/>
+            <labl>Home Ownership Allocation Flag</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="HHT" files="us-census-2010-h" name="HHT">
+            <location width="1"/>
+            <labl>Household/Family Type</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Not in universe (Vancant or GQ)</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>Husband-wife family household</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>Other family household: maile householder</labl>
+            </catgry>
+            <catgry>
+                <catValu>3</catValu>
+                <labl>Other family household: femaile householder</labl>
+            </catgry>
+            <catgry>
+                <catValu>4</catValu>
+                <labl>Nonfamily household: Male householder, living alone</labl>
+            </catgry>
+            <catgry>
+                <catValu>5</catValu>
+                <labl>Nonfamily household: Male householder, not living alone</labl>
+            </catgry>
+            <catgry>
+                <catValu>6</catValu>
+                <labl>Nonfamily household: Female householder, living alone</labl>
+            </catgry>
+            <catgry>
+                <catValu>7</catValu>
+                <labl>Nonfamily household: Female householder, not living alone</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="P60" dcml="0" files="us-census-2010-h" name="P60">
+            <location width="2"/>
+            <labl>Number of people 60 years and over in household</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="P65" dcml="0" files="us-census-2010-h" name="P65">
+            <location width="2"/>
+            <labl>Number of people 65 years and over in household</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="P18" dcml="0" files="us-census-2010-h" name="P18">
+            <location width="2"/>
+            <labl>Number of people under 18 years in household</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="NPF" dcml="0" files="us-census-2010-h" name="NPF">
+            <location width="2"/>
+            <labl>Number of people in family</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="NOCH" dcml="0" files="us-census-2010-h" name="NOCH">
+            <location width="2"/>
+            <labl>Number of own children under 18 years in household</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="NRCH" dcml="0" files="us-census-2010-h" name="NRCH">
+            <location width="2"/>
+            <labl>Number of related children under 18 years in household</labl>
+            <varFormat type="numeric"/>
+        </var>
+        <var ID="PAOC" files="us-census-2010-h" name="PAOC">
+            <location width="1"/>
+            <labl>Presence and Age of Own Children under 18 years</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Not in universe (vacant or GQ)</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>With own children under 6 years only</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>With own children 6 to 17 years only</labl>
+            </catgry>
+            <catgry>
+                <catValu>3</catValu>
+                <labl>With own children under 6 years and 6 to 17 years</labl>
+            </catgry>
+            <catgry>
+                <catValu>4</catValu>
+                <labl>No own children under 18 years</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="PARC" files="us-census-2010-h" name="PARC">
+            <location width="1"/>
+            <labl>Presence and Age of Related Children under 18 years</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Not in universe (vacant or GQ)</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>With related children under 6 years only</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>With related children 6 to 17 years only</labl>
+            </catgry>
+            <catgry>
+                <catValu>3</catValu>
+                <labl>With related children under 6 years and 6 to 17 years</labl>
+            </catgry>
+            <catgry>
+                <catValu>4</catValu>
+                <labl>No related children under 18 years</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="UPART" files="us-census-2010-h" name="UPART">
+            <location width="1"/>
+            <labl>Presence and Type of Unmarried Partner Household</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Not in universe (vacant or GQ)</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>Male householder and male partner</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>Male householder and female partner</labl>
+            </catgry>
+            <catgry>
+                <catValu>3</catValu>
+                <labl>Female householder and female partner</labl>
+            </catgry>
+            <catgry>
+                <catValu>4</catValu>
+                <labl>Female householder and male partner</labl>
+            </catgry>
+            <catgry>
+                <catValu>5</catValu>
+                <labl>All other households</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+        <var ID="MULTG" files="us-census-2010-h" name="MULTG">
+            <location width="1"/>
+            <labl>Mulitgenerational Household</labl>
+            <catgry>
+                <catValu>0</catValu>
+                <labl>Not in universe (vacant or GQ)</labl>
+            </catgry>
+            <catgry>
+                <catValu>1</catValu>
+                <labl>Not a multigenerational household</labl>
+            </catgry>
+            <catgry>
+                <catValu>2</catValu>
+                <labl>Yes, a multigenerational household</labl>
+            </catgry>
+            <varFormat type="character"/>
+        </var>
+    </dataDscr>
+</codeBook>

@@ -1,0 +1,3053 @@
+{
+    "metadata": {
+        "variables": {
+            "resources": [
+                {
+                    "id": "VVERSION",
+                    "name": "VVERSION",
+                    "label": "NES VERSION NUMBER",
+                    "width": 2
+                },
+                {
+                    "id": "VDSETNO",
+                    "name": "VDSETNO",
+                    "label": "DATASET NUMBER  ",
+                    "width": 6
+                },
+                {
+                    "id": "V480001",
+                    "name": "V480001",
+                    "label": "ICPSR ARCHIVE NUMBER",
+                    "width": 4
+                },
+                {
+                    "id": "V480002",
+                    "name": "V480002",
+                    "label": "INTERVIEW NUMBER",
+                    "width": 4
+                },
+                {
+                    "id": "V480003",
+                    "name": "V480003",
+                    "label": "POP CLASSIFICATION",
+                    "width": 1,
+                    "classification": "V480003"
+                },
+                {
+                    "id": "V480004",
+                    "name": "V480004",
+                    "label": "CODER",
+                    "width": 1,
+                    "classification": "V480004"
+                },
+                {
+                    "id": "V480005",
+                    "name": "V480005",
+                    "label": "NUMBER OF CALLS TO R",
+                    "width": 1,
+                    "classification": "V480005"
+                },
+                {
+                    "id": "V480006",
+                    "name": "V480006",
+                    "label": "R REMEMBER PREVIOUS INT",
+                    "width": 1,
+                    "classification": "V480006"
+                },
+                {
+                    "id": "V480007",
+                    "name": "V480007",
+                    "label": "INTR INTERVIEW THIS R",
+                    "width": 1,
+                    "classification": "V480007"
+                },
+                {
+                    "id": "V480008",
+                    "name": "V480008",
+                    "label": "PRVS PRE-ELCTN R REINT",
+                    "width": 1,
+                    "classification": "V480008"
+                },
+                {
+                    "id": "V480009",
+                    "name": "V480009",
+                    "label": "R INT IN PRE/POSTELCTN",
+                    "width": 1,
+                    "classification": "V480009"
+                },
+                {
+                    "id": "V480010",
+                    "name": "V480010",
+                    "label": "RENT CNTRL KEPT/DROPPED",
+                    "width": 1,
+                    "classification": "V480010"
+                },
+                {
+                    "id": "V480011",
+                    "name": "V480011",
+                    "label": "GOVT CONTROL PRICES",
+                    "width": 1,
+                    "classification": "V480011"
+                },
+                {
+                    "id": "V480012",
+                    "name": "V480012",
+                    "label": "WHAT TO DO W TFT-HT ACT",
+                    "width": 1,
+                    "classification": "V480012"
+                },
+                {
+                    "id": "V480013",
+                    "name": "V480013",
+                    "label": "PRESLELCTN OTCM SURPRISE",
+                    "width": 2,
+                    "classification": "V480013"
+                },
+                {
+                    "id": "V480014a",
+                    "name": "V480014a",
+                    "label": "WHY PPL VTD FOR TRUMAN 1",
+                    "width": 2,
+                    "classification": "V480014"
+                },
+                {
+                    "id": "V480014b",
+                    "name": "V480014b",
+                    "label": "WHY PPL VTD FOR TRUMAN 2",
+                    "width": 2,
+                    "classification": "V480014"
+                },
+                {
+                    "id": "V480015a",
+                    "name": "V480015a",
+                    "label": "WHY PPL VTD AGNST TRUMAN 1",
+                    "width": 2,
+                    "classification": "V480015"
+                },
+                {
+                    "id": "V480015b",
+                    "name": "V480015b",
+                    "label": "WHY PPL VTD AGNST TRUMAN 2",
+                    "width": 2,
+                    "classification": "V480015"
+                },
+                {
+                    "id": "V480016a",
+                    "name": "V480016a",
+                    "label": "WHY PPL VTD FOR DEWEY 1",
+                    "width": 2,
+                    "classification": "V480016"
+                },
+                {
+                    "id": "V480016b",
+                    "name": "V480016b",
+                    "label": "WHY PPL VTD FOR DEWEY 2",
+                    "width": 2,
+                    "classification": "V480016"
+                },
+                {
+                    "id": "V480017a",
+                    "name": "V480017a",
+                    "label": "WHY PPL VTD AGNST DEWEY 1",
+                    "width": 2,
+                    "classification": "V480017"
+                },
+                {
+                    "id": "V480017b",
+                    "name": "V480017b",
+                    "label": "WHY PPL VTD AGNST DEWEY 2",
+                    "width": 2,
+                    "classification": "V480017"
+                },
+                {
+                    "id": "V480018",
+                    "name": "V480018",
+                    "label": "DID R VOTE/FOR WHOM",
+                    "width": 1,
+                    "classification": "V480018"
+                },
+                {
+                    "id": "V480019",
+                    "name": "V480019",
+                    "label": "WN DECIDE FOR WHOM TO VT",
+                    "width": 1,
+                    "classification": "V480019"
+                },
+                {
+                    "id": "V480020",
+                    "name": "V480020",
+                    "label": "CNSD VT FOR SOMEONE ELSE",
+                    "width": 2,
+                    "classification": "V480020"
+                },
+                {
+                    "id": "V480021a",
+                    "name": "V480021a",
+                    "label": "XWHY DID NOT VT FOR HIM 1",
+                    "width": 1,
+                    "classification": "V480021"
+                },
+                {
+                    "id": "V480021b",
+                    "name": "V480021b",
+                    "label": "XWHY DID NOT VT FOR HIM 2",
+                    "width": 1,
+                    "classification": "V480021"
+                },
+                {
+                    "id": "V480022a",
+                    "name": "V480022a",
+                    "label": "WHY VT THE WAY YOU DID 1",
+                    "width": 2,
+                    "classification": "V480022"
+                },
+                {
+                    "id": "V480022b",
+                    "name": "V480022b",
+                    "label": "WHY VT THE WAY YOU DID 2",
+                    "width": 2,
+                    "classification": "V480022"
+                },
+                {
+                    "id": "V480023",
+                    "name": "V480023",
+                    "label": "VOTED STRAIGHT TICKET",
+                    "width": 1,
+                    "classification": "V480023"
+                },
+                {
+                    "id": "V480024",
+                    "name": "V480024",
+                    "label": "R NOT VT-IF VT,FOR WHOM",
+                    "width": 1,
+                    "classification": "V480024"
+                },
+                {
+                    "id": "V480025a",
+                    "name": "V480025a",
+                    "label": "R NOT VT-WHY DID NOT VT 1",
+                    "width": 2,
+                    "classification": "V480025"
+                },
+                {
+                    "id": "V480025b",
+                    "name": "V480025b",
+                    "label": "R NOT VT-WHY DID NOT VT 2",
+                    "width": 2,
+                    "classification": "V480025"
+                },
+                {
+                    "id": "V480026",
+                    "name": "V480026",
+                    "label": "R NOT VT-WAS R REG TO VT",
+                    "width": 1,
+                    "classification": "V480026"
+                },
+                {
+                    "id": "V480027",
+                    "name": "V480027",
+                    "label": "VTD IN PRVS PRESL ELCTN",
+                    "width": 1,
+                    "classification": "V480027"
+                },
+                {
+                    "id": "V480028",
+                    "name": "V480028",
+                    "label": "VTD FOR WHOM IN 1944",
+                    "width": 1,
+                    "classification": "V480028"
+                },
+                {
+                    "id": "V480029",
+                    "name": "V480029",
+                    "label": "OCCUPATION OF HEAD",
+                    "width": 2,
+                    "classification": "V480029"
+                },
+                {
+                    "id": "V480030",
+                    "name": "V480030",
+                    "label": "HEAD BELONG TO LBR UN",
+                    "width": 1,
+                    "classification": "V480030"
+                },
+                {
+                    "id": "V480031a",
+                    "name": "V480031a",
+                    "label": "GRPS IDENTIFIED W TRUMAN 1",
+                    "width": 2,
+                    "classification": "V480031"
+                },
+                {
+                    "id": "V480031b",
+                    "name": "V480031b",
+                    "label": "GRPS IDENTIFIED W TRUMAN 2",
+                    "width": 2,
+                    "classification": "V480031"
+                },
+                {
+                    "id": "V480031c",
+                    "name": "V480031c",
+                    "label": "GRPS IDENTIFIED W TRUMAN 3",
+                    "width": 2,
+                    "classification": "V480031"
+                },
+                {
+                    "id": "V480032a",
+                    "name": "V480032a",
+                    "label": "GRPS IDENTIFIED W DEWEY 1",
+                    "width": 2,
+                    "classification": "V480032"
+                },
+                {
+                    "id": "V480032b",
+                    "name": "V480032b",
+                    "label": "GRPS IDENTIFIED W DEWEY 2",
+                    "width": 2,
+                    "classification": "V480032"
+                },
+                {
+                    "id": "V480032c",
+                    "name": "V480032c",
+                    "label": "GRPS IDENTIFIED W DEWEY 3",
+                    "width": 2,
+                    "classification": "V480032"
+                },
+                {
+                    "id": "V480033a",
+                    "name": "V480033a",
+                    "label": "ISSUES CONNECTED W TRMN 1",
+                    "width": 2,
+                    "classification": "V480033"
+                },
+                {
+                    "id": "V480033b",
+                    "name": "V480033b",
+                    "label": "ISSUES CONNECTED W TRMN 2",
+                    "width": 2,
+                    "classification": "V480033"
+                },
+                {
+                    "id": "V480034a",
+                    "name": "V480034a",
+                    "label": "ISSUES CONNECTED W DEWEY 1",
+                    "width": 2,
+                    "classification": "V480034"
+                },
+                {
+                    "id": "V480034b",
+                    "name": "V480034b",
+                    "label": "ISSUES CONNECTED W DEWEY 2",
+                    "width": 2,
+                    "classification": "V480034"
+                },
+                {
+                    "id": "V480035a",
+                    "name": "V480035a",
+                    "label": "PERSONAL ATTRIBUTE TRMN 1",
+                    "width": 2,
+                    "classification": "V480035"
+                },
+                {
+                    "id": "V480035b",
+                    "name": "V480035b",
+                    "label": "PERSONAL ATTRIBUTE TRMN 2",
+                    "width": 2,
+                    "classification": "V480035"
+                },
+                {
+                    "id": "V480036a",
+                    "name": "V480036a",
+                    "label": "PERSONAL ATTRIBUTE DEWEY 1",
+                    "width": 2,
+                    "classification": "V480036"
+                },
+                {
+                    "id": "V480036b",
+                    "name": "V480036b",
+                    "label": "PERSONAL ATTRIBUTE DEWEY 2",
+                    "width": 2,
+                    "classification": "V480036"
+                },
+                {
+                    "id": "V480037",
+                    "name": "V480037",
+                    "label": "CMPN INCIDENTS MENTIONED",
+                    "width": 1,
+                    "classification": "V480037"
+                },
+                {
+                    "id": "V480038",
+                    "name": "V480038",
+                    "label": "41-PRESLELCTN PLAN TO VT",
+                    "width": 1,
+                    "classification": "V480038"
+                },
+                {
+                    "id": "V480039",
+                    "name": "V480039",
+                    "label": "41-PLAN TO VT REP/DEM",
+                    "width": 1,
+                    "classification": "V480039"
+                },
+                {
+                    "id": "V480040",
+                    "name": "V480040",
+                    "label": "41-USA'S CNCRN W OTHERS",
+                    "width": 1,
+                    "classification": "V480040"
+                },
+                {
+                    "id": "V480041",
+                    "name": "V480041",
+                    "label": "41-SATISD USA TWRD RUSS",
+                    "width": 1,
+                    "classification": "V480041"
+                },
+                {
+                    "id": "V480042",
+                    "name": "V480042",
+                    "label": "41-INFORMATION LEVEL",
+                    "width": 1,
+                    "classification": "V480042"
+                },
+                {
+                    "id": "V480043",
+                    "name": "V480043",
+                    "label": "41-USA GV IN,AGRT RUSS",
+                    "width": 1,
+                    "classification": "V480043"
+                },
+                {
+                    "id": "V480044",
+                    "name": "V480044",
+                    "label": "41-USA-RUSS AGRT VIA U.N",
+                    "width": 1,
+                    "classification": "V480044"
+                },
+                {
+                    "id": "V480045",
+                    "name": "V480045",
+                    "label": "SEX OF RESPONDENT",
+                    "width": 1,
+                    "classification": "V480045"
+                },
+                {
+                    "id": "V480046",
+                    "name": "V480046",
+                    "label": "RACE OF RESPONDENT",
+                    "width": 1,
+                    "classification": "V480046"
+                },
+                {
+                    "id": "V480047",
+                    "name": "V480047",
+                    "label": "AGE OF RESPONDENT",
+                    "width": 1,
+                    "classification": "V480047"
+                },
+                {
+                    "id": "V480048",
+                    "name": "V480048",
+                    "label": "EDUCATION OF RESPONDENT",
+                    "width": 1,
+                    "classification": "V480048"
+                },
+                {
+                    "id": "V480049",
+                    "name": "V480049",
+                    "label": "TOTAL 1948 INCOME",
+                    "width": 1,
+                    "classification": "V480049"
+                },
+                {
+                    "id": "V480050",
+                    "name": "V480050",
+                    "label": "RELIGIOUS PREFERENCE",
+                    "width": 1,
+                    "classification": "V480050"
+                }
+            ]
+        },
+        "classifications": {
+            "resources": [
+                {
+                    "id": "V480022",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "10",
+                                "label": "10. LIKED PERSONAL CHARACTERISTICS OF CANDI"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. THOUGHT HE WOULD BE ELECTED"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. DOMESTIC PLATFORM AND ISSUES"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. FOREIGN POLICY"
+                            },
+                            {
+                                "value": "50",
+                                "label": "50. EFFECT OF CAMPAIGN"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. UNDERDOG IDEA - NEWSPAPERS, RADIO, SAID"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. PARTY ALLEGIANCE - ALWAYS VOTE FOR SAME"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. TAUTOLOGICAL - VOTED FOR BEST MAN"
+                            },
+                            {
+                                "value": "90",
+                                "label": "90. OTHER REASON"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. INAP"
+                            },
+                            {
+                                "value": "98",
+                                "label": "98. DK WHAT CAUSED DECISION"
+                            },
+                            {
+                                "value": "99",
+                                "label": "99. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480008",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. PREVIOUS RESPONDENT INTERVIEWED"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. NOT AT HOME"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. REFUSED"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. MOVED FROM THIS ADDRESS"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. OTHER REASONS"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480014",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "10",
+                                "label": "10. BETTER MAN"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. EXPERIENCED, GOOD RECORD"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. TRUMAN PRO-LABOR, NEGRO, WORKING MAN"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. GOOD CAMPAIGN CONDUCTED BY TRUMAN"
+                            },
+                            {
+                                "value": "50",
+                                "label": "50. DEMOCRATS MEAN PROSPERITY, REPUBLICANS"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. TRUMAN PRO RENT CONTROL, PRICE CONTROL,"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. ROOSEVELT TRADITION"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. PERSONAL ATTRIBUTES"
+                            },
+                            {
+                                "value": "90",
+                                "label": "90. OTHER"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. NO SECOND REASON"
+                            },
+                            {
+                                "value": "98",
+                                "label": "98. DK"
+                            },
+                            {
+                                "value": "99",
+                                "label": "99. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480037",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NO INCIDENT MENTIONED"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. DEWEY - TRAIN ENGINEER"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. DEWEY - 3 SYLLABLE WORDS"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. DEWEY - DEBATE WITH STASSEN"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. DEWEY - PRESS CONFERENCE"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. TRUMAN - VINSON-PRO"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. TRUMAN - VINSON-CON"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480034",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NO ISSUE"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. RENT CONTROL"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. PRICE CONTROL"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "7",
+                                "label": "7. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "10",
+                                "label": "10. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "11",
+                                "label": "11. NEW DEAL"
+                            },
+                            {
+                                "value": "12",
+                                "label": "12. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "13",
+                                "label": "13. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "14",
+                                "label": "14. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "15",
+                                "label": "15. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "16",
+                                "label": "16. RENT CONTROL"
+                            },
+                            {
+                                "value": "17",
+                                "label": "17. PRICE CONTROL"
+                            },
+                            {
+                                "value": "18",
+                                "label": "18. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "19",
+                                "label": "19. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "21",
+                                "label": "21. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "22",
+                                "label": "22. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "23",
+                                "label": "23.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "24",
+                                "label": "24. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "25",
+                                "label": "25. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "26",
+                                "label": "26. NEW DEAL"
+                            },
+                            {
+                                "value": "27",
+                                "label": "27. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "28",
+                                "label": "28. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "29",
+                                "label": "29. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "31",
+                                "label": "31. RENT CONTROL"
+                            },
+                            {
+                                "value": "32",
+                                "label": "32. PRICE CONTROL"
+                            },
+                            {
+                                "value": "33",
+                                "label": "33. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "34",
+                                "label": "34. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "35",
+                                "label": "35. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "36",
+                                "label": "36. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "37",
+                                "label": "37. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "38",
+                                "label": "38.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "39",
+                                "label": "39. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "41",
+                                "label": "41. NEW DEAL"
+                            },
+                            {
+                                "value": "42",
+                                "label": "42. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "43",
+                                "label": "43. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "44",
+                                "label": "44. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "45",
+                                "label": "45. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "51",
+                                "label": "51. RENT CONTROL"
+                            },
+                            {
+                                "value": "52",
+                                "label": "52. PRICE CONTROL"
+                            },
+                            {
+                                "value": "53",
+                                "label": "53. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "54",
+                                "label": "54. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "55",
+                                "label": "55. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "56",
+                                "label": "56. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "57",
+                                "label": "57. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "58",
+                                "label": "58.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "59",
+                                "label": "59. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "61",
+                                "label": "61. NEW DEAL"
+                            },
+                            {
+                                "value": "62",
+                                "label": "62. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "63",
+                                "label": "63. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "64",
+                                "label": "64. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "65",
+                                "label": "65. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "66",
+                                "label": "66. RENT CONTROL"
+                            },
+                            {
+                                "value": "67",
+                                "label": "67. PRICE CONTROL"
+                            },
+                            {
+                                "value": "68",
+                                "label": "68. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "69",
+                                "label": "69. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "71",
+                                "label": "71. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "72",
+                                "label": "72. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "73",
+                                "label": "73.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "74",
+                                "label": "74. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "75",
+                                "label": "75. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "76",
+                                "label": "76. NEW DEAL"
+                            },
+                            {
+                                "value": "77",
+                                "label": "77. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "78",
+                                "label": "78. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "79",
+                                "label": "79. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "81",
+                                "label": "81. RENT CONTROL"
+                            },
+                            {
+                                "value": "82",
+                                "label": "82. PRICE CONTROL"
+                            },
+                            {
+                                "value": "83",
+                                "label": "83. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "84",
+                                "label": "84. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "85",
+                                "label": "85. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "86",
+                                "label": "86. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "87",
+                                "label": "87. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "88",
+                                "label": "88.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "89",
+                                "label": "89. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "90",
+                                "label": "90. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. NEW DEAL"
+                            },
+                            {
+                                "value": "92",
+                                "label": "92. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "93",
+                                "label": "93. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "94",
+                                "label": "94. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "95",
+                                "label": "95. PROMOTE PEACE"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480043",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. APPROVE"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. APPROVE WITH RESERVATIONS OR UNCERTAIN"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. NEUTRAL OR MIXED PRO-CON"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. NO OR DISAPPROVE WITH RESERVATIONS OR"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. NO OR DISAPPROVE"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. IT DEPENDS"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DON'T KNOW"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480006",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. YES"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. NO"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480015",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "10",
+                                "label": "10. SMALL MAN, INADEQUATE BACKGROUND"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. CAN'T HANDLE SUBORDINATES, OR PICKED BA"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. CAN'T GET THINGS DONE"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. PARTIAL TO LABOR, NEGRO, WORKING MAN, G"
+                            },
+                            {
+                                "value": "50",
+                                "label": "50. CAN'T GET ALONG WITH CONGRESS"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. CIVIL RIGHTS PROGRAM"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. NOTHING SPECIAL ABOUT TRUMAN MADE PEOPL"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. PERSONAL ATTRIBUTES"
+                            },
+                            {
+                                "value": "90",
+                                "label": "90. OTHER REASONS"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. NO SECOND REASON"
+                            },
+                            {
+                                "value": "98",
+                                "label": "98. DK"
+                            },
+                            {
+                                "value": "99",
+                                "label": "99. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480018",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. VOTED - FOR TRUMAN"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. VOTED - FOR DEWEY"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. VOTED - FOR WALLACE"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. VOTED - FOR OTHER"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. VOTED - NA FOR WHOM"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. DID NOT VOTE"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA WHETHER VOTED"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480011",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. SHOULD BE RE-INSTITUTED ON ALL OR MANY"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. SHOULD BE RE-INSTITUTED ON ONE OR A FE"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. NEUTRAL OR PRO-CON"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. SHOULD BE RE-INSTITUTED ONLY IF PRESEN"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. PRICE CONTROL SHOULD BE KEPT OFF"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480035",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NO ATTRIBUTE MENTIONED"
+                            },
+                            {
+                                "value": "11",
+                                "label": "11. HONEST, SINCERE, FAIR"
+                            },
+                            {
+                                "value": "12",
+                                "label": "12. EXPERIENCED, CAPABLE, COMPETENT, INTELL"
+                            },
+                            {
+                                "value": "13",
+                                "label": "13. FEARLESS, SPUNKY, FIGHTING, AGGRESSIVE"
+                            },
+                            {
+                                "value": "14",
+                                "label": "14. DOWN-TO-EARTH, COMMON TOUCH, UNDERSTAND"
+                            },
+                            {
+                                "value": "21",
+                                "label": "21. SHORT-TEMPERED, HOT-HEAD, SHOVES PEOPLE"
+                            },
+                            {
+                                "value": "22",
+                                "label": "22. SMALL, INCOMPETENT, INEFFICIENT"
+                            },
+                            {
+                                "value": "23",
+                                "label": "23. INDECISIVE, VACILLATING, DOESN'T KNOW H"
+                            },
+                            {
+                                "value": "24",
+                                "label": "24. FOPPISH, OVER-DRESSED, APPEARANCE ANTAG"
+                            },
+                            {
+                                "value": "25",
+                                "label": "25. SMUG, COMPLACENT, OVER-CONFIDENT, PATRO"
+                            },
+                            {
+                                "value": "26",
+                                "label": "26. INSINCERE, DECEPTIVE, TWO-FACED"
+                            },
+                            {
+                                "value": "27",
+                                "label": "27. NON-COMMITTAL, BACKS AWAY FROM ISSUES,"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480010",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. DEFINITELY SHOULD BE KEPT ON OR SHOULD"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. SHOULD BE KEPT WITH RESTRICTIONS, OR R"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. NEUTRAL, OR PRO-CON"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. SHOULD BE DROPPED"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480050",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. PROTESTANT"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. CATHOLIC"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. JEWISH"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. OTHER"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. NONE"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480027",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. VOTED PREVIOUSLY -- DEMOCRATIC"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. VOTED PREVIOUSLY -- REPUBLICAN"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. VOTED PREVIOUSLY -- OTHER"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. VOTED PREVIOUSLY -- MORE THAN ONE PART"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. VOTED PREVIOUSLY -- NA HOW"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. HAVE NEVER VOTED PREVIOUS PRESIDENTIAL"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK WHETHER VOTED PREVIOUSLY"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA WHETHER VOTED PREVIOUSLY"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480039",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. INAP"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. DEMOCRATIC"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. PROGRESSIVE"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. REPUBLICAN"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. DIXIECRAT (STATES' RIGHTS)"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. OTHER"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480038",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. ALMOST CERTAIN TO V4800OTE"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. UNCERTAIN"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. WON'T OR CAN'T VOTE"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DON'T KNOW"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480024",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. INAP"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. TRUMAN"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. DEWEY"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. WALLACE"
+                            },
+                            {
+                                "value": "7",
+                                "label": "7. OTHER"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480013",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "10",
+                                "label": "10. SURPRISED -- THOUGHT PEOPLE WANTED CHA"
+                            },
+                            {
+                                "value": "11",
+                                "label": "11. SURPRISED -- EXPERTS, RADIO, PAPERS SA"
+                            },
+                            {
+                                "value": "12",
+                                "label": "12. SURPRISED -- DEWEY A BETTER MAN"
+                            },
+                            {
+                                "value": "13",
+                                "label": "13. SURPRISED -- TRUMAN RECORD BAD"
+                            },
+                            {
+                                "value": "14",
+                                "label": "14. SURPRISED -- OTHER, MISCELLANEOUS"
+                            },
+                            {
+                                "value": "15",
+                                "label": "15. SURPRISED -- DON'T KNOW WHY"
+                            },
+                            {
+                                "value": "19",
+                                "label": "19. SURPRISED -- NA WHY"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. EXPECTED -- PEOPLE WANTED SAME ADMINIS"
+                            },
+                            {
+                                "value": "21",
+                                "label": "21. EXPECTED -- SKEPTICAL OF RADIO, NEWSPA"
+                            },
+                            {
+                                "value": "22",
+                                "label": "22. EXPECTED -- REPUBLICANS OVER-CONFIDENT"
+                            },
+                            {
+                                "value": "23",
+                                "label": "23. EXPECTED -- TRUMAN'S CAMPAIGN MORE EFF"
+                            },
+                            {
+                                "value": "24",
+                                "label": "24. EXPECTED -- TRUMAN A BETTER MAN OR BET"
+                            },
+                            {
+                                "value": "25",
+                                "label": "25. EXPECTED -- PEOPLE OPPOSED TO 80TH CON"
+                            },
+                            {
+                                "value": "26",
+                                "label": "26. EXPECTED -- PEOPLE VOTED IN ROOSEVELT"
+                            },
+                            {
+                                "value": "27",
+                                "label": "27. EXPECTED -- LABOR, NEGRO, GOVERNMENT E"
+                            },
+                            {
+                                "value": "28",
+                                "label": "28. EXPECTED -- DK WHY"
+                            },
+                            {
+                                "value": "29",
+                                "label": "29. EXPECTED -- NA WHY"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. EXPECTED -- OTHER"
+                            },
+                            {
+                                "value": "88",
+                                "label": "88. IGNORES POLITICS"
+                            },
+                            {
+                                "value": "98",
+                                "label": "98. DON'T KNOW WHETHER SURPRISED"
+                            },
+                            {
+                                "value": "99",
+                                "label": "99. NA WHETHER SURPRISED"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480012",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. HAVE NOT HEARD ABOUT TAFT-HARTLEY ACT"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. SHOULD BE LEFT ALONE"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. SHOULD BE MODIFIED IN FAVOR OF MANAGEM"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. SHOULD BE MODIFIED IN FAVOR OF LABOR"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. SHOULD BE REPEALED"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. HAVE HEARD OF TAFT-HARTLEY ACT"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. HAVE HEARD OF TAFT-HARTLEY ACT"
+                            },
+                            {
+                                "value": "7",
+                                "label": "7. SHOULD BE CHANGED, NA HOW"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DON'T KNOW WHETHER HEARD ABOUT TAFT-HA"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA WHETHER HEARD ABOUT TAFT-HARTLEY AC"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480047",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. 18-24"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. 25-34"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. 35-44"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. 45-54"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. 55-64"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. 65 AND OVER"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480046",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. WHITE"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. NEGRO"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. OTHER"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480023",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. INAP"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. TRUMAN - STRAIGHT"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. TRUMAN - SPLIT"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. DEWEY - STRAIGHT"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. DEWEY - SPLIT"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. WALLACE - STRAIGHT"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. OTHER - STRAIGHT"
+                            },
+                            {
+                                "value": "7",
+                                "label": "7. OTHER - SPLIT"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480026",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. INAP"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. YES"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. NO"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480004",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. NAME NOT KNOWN"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. NAME NOT KNOWN"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. NAME NOT KNOWN"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. NAME NOT KNOWN"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. NAME NOT KNOWN"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480029",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "10",
+                                "label": "10. PROFESSIONAL, SEMI-PROFESSIONAL"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. SELF-EMPLOYED, MANAGERIAL, SUPERVISORY"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. OTHER WHITE-COLLAR (CLERICAL, SALES, ET"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. SKILLED AND SEMI-SKILLED"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. PROTECTIVE SERVICE"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. UNSKILLED, INCLUDING FARM AND SERVICE W"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. FARM OPERATORS AND MANAGERS"
+                            },
+                            {
+                                "value": "92",
+                                "label": "92. STUDENT"
+                            },
+                            {
+                                "value": "94",
+                                "label": "94. UNEMPLOYED"
+                            },
+                            {
+                                "value": "95",
+                                "label": "95. RETIRED, TOO OLD OR UNABLE TO WORK"
+                            },
+                            {
+                                "value": "96",
+                                "label": "96. HOUSEWIFE"
+                            },
+                            {
+                                "value": "99",
+                                "label": "99. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480017",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "10",
+                                "label": "10. INEXPERIENCED"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. COLD PERSONALITY, INHUMAN, SUPERIOR, AP"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. PARTIAL TO BUSINESS, WALL STREET PRESID"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. OVER-CONFIDENT"
+                            },
+                            {
+                                "value": "50",
+                                "label": "50. CONDUCTED POOR CAMPAIGN, NON-COMMITAL O"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. DEWEY PRO-80TH CONGRESS"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. NOTHING SPECIAL ABOUT DEWEY MADE PEOPLE"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. PERSONAL ATTRIBUTES"
+                            },
+                            {
+                                "value": "90",
+                                "label": "90. OTHER REASONS"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. NO SECOND REASON"
+                            },
+                            {
+                                "value": "98",
+                                "label": "98. DK"
+                            },
+                            {
+                                "value": "99",
+                                "label": "99. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480007",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. YES"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. NO"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480025",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "10",
+                                "label": "10. ILLNESS, SELF OR FAMILY"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. WEATHER"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. CROWDED POLLS"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. DIDN'T THINK PREFERRED CANDIDATE HAD A"
+                            },
+                            {
+                                "value": "50",
+                                "label": "50. DIDN'T CARE WHO WON"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. GENERAL LETHARGY"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. OVER-CONFIDENCE"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. NOT REGISTERED"
+                            },
+                            {
+                                "value": "90",
+                                "label": "90. OTHER REASONS"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. INAP"
+                            },
+                            {
+                                "value": "98",
+                                "label": "98. DK"
+                            },
+                            {
+                                "value": "99",
+                                "label": "99. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480041",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. VERY SATISFIED"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. SATISFIED WITH RESERVATIONS"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. NEUTRAL OR MIXED PRO-CON"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. DISSATISFIED OR WITH RESERVATIONS"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. VERY DISSATISFIED"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480044",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. YES"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. YES, WITH RESERVATIONS"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. NEUTRAL, MIXED, PRO-CON"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. NO, WITH RESERVATIONS"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. NO"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480042",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NO INFORMATION"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. LOW INFORMATION"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. MEDIUM INFORMATION"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. HIGH INFORMATION"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480003",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. METROPOLITAN AREA"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. TOWN OR CITY"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. OPEN COUNTRY"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480019",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NOT APPLICABLE"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. KNEW ALL ALONG"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. DECIDED AT TIME OF CONVENTION"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. DECIDED AFTER CONVENTION, DURING CAMPA"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. DECIDED WITHIN TWO WEEKS OF ELECTION"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. DECIDED ON ELECTION DAY"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DON'T KNOW WHEN DECIDED"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480028",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. VOTED IN 1944 - ROOSEVELT"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. VOTED IN 1944 - DEWEY"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. VOTED IN 1944 - OTHER"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. VOTED IN 1944 - NA FOR WHOM"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. DID NOT VOTE IN 1944"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DON'T KNOW WHETHER VOTED IN 1944, OR '"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA WHETHER VOTED IN 1944"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480048",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. GRADE SCHOOL"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. HIGH SCHOOL"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. COLLEGE"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480009",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. INTERVIEWED IN BOTH PRE AND POST"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. INTERVIEWED IN POST BUT NOT PRE"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. PARTIALLY INTERVIEWED IN POST, INTERVI"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. PARTIALLY INTERVIEWED IN POST, NOT INT"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480045",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. MALE"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. FEMALE"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480016",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "10",
+                                "label": "10. BETTER MAN"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. EXPERIENCED"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. DEWEY PRO BUSINESS, WEALTHY, TRUMAN PRO"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. GOOD CAMPAIGN CONDUCTED BY DEWEY"
+                            },
+                            {
+                                "value": "50",
+                                "label": "50. REPUBLICANS BRING PROSPERITY, GOOD FOR"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. DEWEY PRO-80TH CONGRESS, TAFT-HARTLEY A"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. DEMOCRATS IN OFFICE TOO LONG"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. PERSONAL ATTRIBUTES"
+                            },
+                            {
+                                "value": "90",
+                                "label": "90. OTHER REASONS"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. NO SECOND REASON"
+                            },
+                            {
+                                "value": "98",
+                                "label": "98. DK"
+                            },
+                            {
+                                "value": "99",
+                                "label": "99. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480030",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. YES"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. NO"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480032",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NO GROUP"
+                            },
+                            {
+                                "value": "10",
+                                "label": "10. COMMON MAN, LITTLE PEOPLE"
+                            },
+                            {
+                                "value": "11",
+                                "label": "11. ORGANIZED LABOR, UNIONS"
+                            },
+                            {
+                                "value": "12",
+                                "label": "12. FARMER"
+                            },
+                            {
+                                "value": "13",
+                                "label": "13. GOVERNMENT WORKER"
+                            },
+                            {
+                                "value": "14",
+                                "label": "14. BUSINESS, BIG MONEY, UPPER CLASSES, WAL"
+                            },
+                            {
+                                "value": "15",
+                                "label": "15. NEGROES"
+                            },
+                            {
+                                "value": "16",
+                                "label": "16. JEWS"
+                            },
+                            {
+                                "value": "17",
+                                "label": "17. MACHINE POLITICIANS"
+                            },
+                            {
+                                "value": "18",
+                                "label": "18. SOUTH"
+                            },
+                            {
+                                "value": "19",
+                                "label": "19. LIBERALS"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. CONSERVATIVES"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480020",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "11",
+                                "label": "11. DID NOT CONSIDER ANYONE ELSE"
+                            },
+                            {
+                                "value": "12",
+                                "label": "12. CONSIDERED DEWEY"
+                            },
+                            {
+                                "value": "13",
+                                "label": "13. CONSIDERED WALLACE"
+                            },
+                            {
+                                "value": "14",
+                                "label": "14. CONSIDERED OTHER"
+                            },
+                            {
+                                "value": "19",
+                                "label": "19. NA"
+                            },
+                            {
+                                "value": "21",
+                                "label": "21. CONSIDERED TRUMAN"
+                            },
+                            {
+                                "value": "22",
+                                "label": "22. DID NOT CONSIDER ANYONE ELSE"
+                            },
+                            {
+                                "value": "23",
+                                "label": "23. CONSIDERED WALLACE"
+                            },
+                            {
+                                "value": "24",
+                                "label": "24. CONSIDERED OTHER"
+                            },
+                            {
+                                "value": "29",
+                                "label": "29. NA"
+                            },
+                            {
+                                "value": "33",
+                                "label": "33. DID NOT CONSIDER ANYONE ELSE"
+                            },
+                            {
+                                "value": "41",
+                                "label": "41. CONSIDERED TRUMAN"
+                            },
+                            {
+                                "value": "44",
+                                "label": "44. DID NOT CONSIDER ANYONE ELSE"
+                            },
+                            {
+                                "value": "49",
+                                "label": "49. NA"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. INAP"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480036",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NO ATTRIBUTE MENTIONED"
+                            },
+                            {
+                                "value": "11",
+                                "label": "11. HONEST, SINCERE, FAIR"
+                            },
+                            {
+                                "value": "12",
+                                "label": "12. EXPERIENCED, CAPABLE, COMPETENT, INTELL"
+                            },
+                            {
+                                "value": "13",
+                                "label": "13. FEARLESS, SPUNKY, FIGHTING, AGGRESSIVE"
+                            },
+                            {
+                                "value": "14",
+                                "label": "14. DOWN-TO-EARTH, COMMON TOUCH, UNDERSTAND"
+                            },
+                            {
+                                "value": "21",
+                                "label": "21. SHORT-TEMPERED, HOT-HEAD, SHOVES PEOPLE"
+                            },
+                            {
+                                "value": "22",
+                                "label": "22. SMALL, INCOMPETENT, INEFFICIENT"
+                            },
+                            {
+                                "value": "23",
+                                "label": "23. INDECISIVE, VACILLATING, DOESN'T KNOW H"
+                            },
+                            {
+                                "value": "24",
+                                "label": "24. FOPPISH, OVER-DRESSED, APPEARANCE ANTAG"
+                            },
+                            {
+                                "value": "25",
+                                "label": "25. SMUG, COMPLACENT, OVER-CONFIDENT, PATRO"
+                            },
+                            {
+                                "value": "26",
+                                "label": "26. INSINCERE, DECEPTIVE, TWO-FACED"
+                            },
+                            {
+                                "value": "27",
+                                "label": "27. NON-COMMITTAL, BACKS AWAY FROM ISSUES,"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480031",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NO GROUP, OR NO SECOND, THIRD GROUP"
+                            },
+                            {
+                                "value": "10",
+                                "label": "10. COMMON MAN, LITTLE PEOPLE"
+                            },
+                            {
+                                "value": "11",
+                                "label": "11. ORGANIZED LABOR, UNIONS"
+                            },
+                            {
+                                "value": "12",
+                                "label": "12. FARMER"
+                            },
+                            {
+                                "value": "13",
+                                "label": "13. GOVERNMENT WORKER"
+                            },
+                            {
+                                "value": "14",
+                                "label": "14. BUSINESS, BIG MONEY, UPPER CLASSES, WAL"
+                            },
+                            {
+                                "value": "15",
+                                "label": "15. NEGROES"
+                            },
+                            {
+                                "value": "16",
+                                "label": "16. JEWS"
+                            },
+                            {
+                                "value": "17",
+                                "label": "17. MACHINE POLITICIANS"
+                            },
+                            {
+                                "value": "18",
+                                "label": "18. SOUTH"
+                            },
+                            {
+                                "value": "19",
+                                "label": "19. LIBERALS"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. CONSERVATIVES"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480033",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NO ISSUE"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. RENT CONTROL"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. PRICE CONTROL"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "7",
+                                "label": "7. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "10",
+                                "label": "10. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "11",
+                                "label": "11. NEW DEAL"
+                            },
+                            {
+                                "value": "12",
+                                "label": "12. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "13",
+                                "label": "13. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "14",
+                                "label": "14. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "15",
+                                "label": "15. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "16",
+                                "label": "16. RENT CONTROL"
+                            },
+                            {
+                                "value": "17",
+                                "label": "17. PRICE CONTROL"
+                            },
+                            {
+                                "value": "18",
+                                "label": "18. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "19",
+                                "label": "19. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "20",
+                                "label": "20. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "21",
+                                "label": "21. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "22",
+                                "label": "22. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "23",
+                                "label": "23.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "24",
+                                "label": "24. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "25",
+                                "label": "25. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "26",
+                                "label": "26. NEW DEAL"
+                            },
+                            {
+                                "value": "27",
+                                "label": "27. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "28",
+                                "label": "28. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "29",
+                                "label": "29. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "30",
+                                "label": "30. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "31",
+                                "label": "31. RENT CONTROL"
+                            },
+                            {
+                                "value": "32",
+                                "label": "32. PRICE CONTROL"
+                            },
+                            {
+                                "value": "33",
+                                "label": "33. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "34",
+                                "label": "34. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "35",
+                                "label": "35. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "36",
+                                "label": "36. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "37",
+                                "label": "37. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "38",
+                                "label": "38.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "39",
+                                "label": "39. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "40",
+                                "label": "40. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "41",
+                                "label": "41. NEW DEAL"
+                            },
+                            {
+                                "value": "42",
+                                "label": "42. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "43",
+                                "label": "43. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "44",
+                                "label": "44. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "45",
+                                "label": "45. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "51",
+                                "label": "51. RENT CONTROL"
+                            },
+                            {
+                                "value": "52",
+                                "label": "52. PRICE CONTROL"
+                            },
+                            {
+                                "value": "53",
+                                "label": "53. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "54",
+                                "label": "54. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "55",
+                                "label": "55. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "56",
+                                "label": "56. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "57",
+                                "label": "57. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "58",
+                                "label": "58.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "59",
+                                "label": "59. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "60",
+                                "label": "60. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "61",
+                                "label": "61. NEW DEAL"
+                            },
+                            {
+                                "value": "62",
+                                "label": "62. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "63",
+                                "label": "63. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "64",
+                                "label": "64. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "65",
+                                "label": "65. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "66",
+                                "label": "66. RENT CONTROL"
+                            },
+                            {
+                                "value": "67",
+                                "label": "67. PRICE CONTROL"
+                            },
+                            {
+                                "value": "68",
+                                "label": "68. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "69",
+                                "label": "69. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "70",
+                                "label": "70. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "71",
+                                "label": "71. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "72",
+                                "label": "72. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "73",
+                                "label": "73.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "74",
+                                "label": "74. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "75",
+                                "label": "75. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "76",
+                                "label": "76. NEW DEAL"
+                            },
+                            {
+                                "value": "77",
+                                "label": "77. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "78",
+                                "label": "78. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "79",
+                                "label": "79. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "80",
+                                "label": "80. PROMOTE PEACE"
+                            },
+                            {
+                                "value": "81",
+                                "label": "81. RENT CONTROL"
+                            },
+                            {
+                                "value": "82",
+                                "label": "82. PRICE CONTROL"
+                            },
+                            {
+                                "value": "83",
+                                "label": "83. TAFT-HARTLEY"
+                            },
+                            {
+                                "value": "84",
+                                "label": "84. FARM PRICES AND SUPPORT"
+                            },
+                            {
+                                "value": "85",
+                                "label": "85. LOWER INCOME TAX"
+                            },
+                            {
+                                "value": "86",
+                                "label": "86. CIVIL RIGHTS"
+                            },
+                            {
+                                "value": "87",
+                                "label": "87. BALANCE BUDGET"
+                            },
+                            {
+                                "value": "88",
+                                "label": "88.(GOVERNMENT) HOUSING"
+                            },
+                            {
+                                "value": "89",
+                                "label": "89. DEFENSE ACTIVITY"
+                            },
+                            {
+                                "value": "90",
+                                "label": "90. GOVERNMENT ATOMIC CONTROL"
+                            },
+                            {
+                                "value": "91",
+                                "label": "91. NEW DEAL"
+                            },
+                            {
+                                "value": "92",
+                                "label": "92. MARSHALL PLAN"
+                            },
+                            {
+                                "value": "93",
+                                "label": "93. FIRM RUSSIAN POLICY"
+                            },
+                            {
+                                "value": "94",
+                                "label": "94. HELP ISRAEL (PALESTINE)"
+                            },
+                            {
+                                "value": "95",
+                                "label": "95. PROMOTE PEACE"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480005",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NA"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. ONE CALL"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. TWO CALLS"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. THREE CALLS"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. FOUR CALLS"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. FIVE CALLS"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. SIX CALLS"
+                            },
+                            {
+                                "value": "7",
+                                "label": "7. SEVEN CALLS"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. EIGHT CALLS"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. DK"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480040",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. AGREE"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. AGREE WITH RESERVATIONS OR UNCERTAINTY"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. NEUTRAL OR MIXED PRO-CON"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. DISAGREE WITH RESERVATIONS OR UNCERTAI"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. DISAGREE"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480049",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "1",
+                                "label": "1. UNDER $500"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2.$500-$999"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3.$1000-1999"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4.$2000-2999"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5.$3000-3999"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6.$4000-4999"
+                            },
+                            {
+                                "value": "7",
+                                "label": "7.$5000 AND OVER"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "V480021",
+                    "codes": {
+                        "resources": [
+                            {
+                                "value": "0",
+                                "label": "0. NOT APPLICABLE"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1. DISLIKED PERSONAL CHARACTERISTICS OF C"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2. DID NOT THINK CANDIDATE HAD A CHANCE O"
+                            },
+                            {
+                                "value": "3",
+                                "label": "3. DISAGREED WITH PLATFORM OR POLICY - TO"
+                            },
+                            {
+                                "value": "4",
+                                "label": "4. DISAGREED WITH PLATFORM OR POLICY - TO"
+                            },
+                            {
+                                "value": "5",
+                                "label": "5. TAUTOLOGICAL - DIDN'T VOTE FOR CANDIDA"
+                            },
+                            {
+                                "value": "6",
+                                "label": "6. EFFECT OF CAMPAIGN CHANGED VOTE"
+                            },
+                            {
+                                "value": "7",
+                                "label": "7. OTHER REASONS"
+                            },
+                            {
+                                "value": "8",
+                                "label": "8. DK WHY DECIDED NOT TO V4800OTE FOR HIM"
+                            },
+                            {
+                                "value": "9",
+                                "label": "9. NA"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

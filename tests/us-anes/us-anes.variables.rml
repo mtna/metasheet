@@ -1,0 +1,268 @@
+
+// us-anes-1948TS-vars.VVERSION
+create variable VVERSION in us-anes-1948TS-vars ;
+let VVERSION datatype="N",name="VVERSION",name[label]="NES VERSION NUMBER",width="2" ;
+
+// us-anes-1948TS-vars.VDSETNO
+create variable VDSETNO in us-anes-1948TS-vars ;
+let VDSETNO datatype="T",name="VDSETNO",name[label]="DATASET NUMBER  ",width="6" ;
+
+// us-anes-1948TS-vars.V480001
+create variable V480001 in us-anes-1948TS-vars ;
+let V480001 datatype="N",name="V480001",name[label]="ICPSR ARCHIVE NUMBER",width="4" ;
+
+// us-anes-1948TS-vars.V480002
+create variable V480002 in us-anes-1948TS-vars ;
+let V480002 datatype="N",name="V480002",name[label]="INTERVIEW NUMBER",width="4" ;
+
+// us-anes-1948TS-vars.V480003
+create variable V480003 in us-anes-1948TS-vars ;
+let V480003 classification="V480003",datatype="N",name="V480003",name[label]="POP CLASSIFICATION",width="1" ;
+
+// us-anes-1948TS-vars.V480004
+create variable V480004 in us-anes-1948TS-vars ;
+let V480004 classification="V480004",datatype="N",name="V480004",name[label]="CODER",width="1" ;
+
+// us-anes-1948TS-vars.V480005
+create variable V480005 in us-anes-1948TS-vars ;
+let V480005 classification="V480005",datatype="N",name="V480005",name[label]="NUMBER OF CALLS TO R",width="1" ;
+
+// us-anes-1948TS-vars.V480006
+create variable V480006 in us-anes-1948TS-vars ;
+let V480006 classification="V480006",datatype="N",name="V480006",name[label]="R REMEMBER PREVIOUS INT",width="1" ;
+
+// us-anes-1948TS-vars.V480007
+create variable V480007 in us-anes-1948TS-vars ;
+let V480007 classification="V480007",datatype="N",name="V480007",name[label]="INTR INTERVIEW THIS R",width="1" ;
+
+// us-anes-1948TS-vars.V480008
+create variable V480008 in us-anes-1948TS-vars ;
+let V480008 classification="V480008",datatype="N",name="V480008",name[label]="PRVS PRE-ELCTN R REINT",width="1" ;
+
+// us-anes-1948TS-vars.V480009
+create variable V480009 in us-anes-1948TS-vars ;
+let V480009 classification="V480009",datatype="N",name="V480009",name[label]="R INT IN PRE/POSTELCTN",width="1" ;
+
+// us-anes-1948TS-vars.V480010
+create variable V480010 in us-anes-1948TS-vars ;
+let V480010 classification="V480010",datatype="N",name="V480010",name[label]="RENT CNTRL KEPT/DROPPED",width="1" ;
+
+// us-anes-1948TS-vars.V480011
+create variable V480011 in us-anes-1948TS-vars ;
+let V480011 classification="V480011",datatype="N",name="V480011",name[label]="GOVT CONTROL PRICES",width="1" ;
+
+// us-anes-1948TS-vars.V480012
+create variable V480012 in us-anes-1948TS-vars ;
+let V480012 classification="V480012",datatype="N",name="V480012",name[label]="WHAT TO DO W TFT-HT ACT",width="1" ;
+
+// us-anes-1948TS-vars.V480013
+create variable V480013 in us-anes-1948TS-vars ;
+let V480013 classification="V480013",datatype="N",name="V480013",name[label]="PRESLELCTN OTCM SURPRISE",width="2" ;
+
+// us-anes-1948TS-vars.V480014a
+create variable V480014a in us-anes-1948TS-vars ;
+let V480014a classification="V480014",datatype="N",name="V480014a",name[label]="WHY PPL VTD FOR TRUMAN 1",width="2" ;
+
+// us-anes-1948TS-vars.V480014b
+create variable V480014b in us-anes-1948TS-vars ;
+let V480014b classification="V480014",datatype="N",name="V480014b",name[label]="WHY PPL VTD FOR TRUMAN 2",width="2" ;
+
+// us-anes-1948TS-vars.V480015a
+create variable V480015a in us-anes-1948TS-vars ;
+let V480015a classification="V480015",datatype="N",name="V480015a",name[label]="WHY PPL VTD AGNST TRUMAN 1",width="2" ;
+
+// us-anes-1948TS-vars.V480015b
+create variable V480015b in us-anes-1948TS-vars ;
+let V480015b classification="V480015",datatype="N",name="V480015b",name[label]="WHY PPL VTD AGNST TRUMAN 2",width="2" ;
+
+// us-anes-1948TS-vars.V480016a
+create variable V480016a in us-anes-1948TS-vars ;
+let V480016a classification="V480016",datatype="N",name="V480016a",name[label]="WHY PPL VTD FOR DEWEY 1",width="2" ;
+
+// us-anes-1948TS-vars.V480016b
+create variable V480016b in us-anes-1948TS-vars ;
+let V480016b classification="V480016",datatype="N",name="V480016b",name[label]="WHY PPL VTD FOR DEWEY 2",width="2" ;
+
+// us-anes-1948TS-vars.V480017a
+create variable V480017a in us-anes-1948TS-vars ;
+let V480017a classification="V480017",datatype="N",name="V480017a",name[label]="WHY PPL VTD AGNST DEWEY 1",width="2" ;
+
+// us-anes-1948TS-vars.V480017b
+create variable V480017b in us-anes-1948TS-vars ;
+let V480017b classification="V480017",datatype="N",name="V480017b",name[label]="WHY PPL VTD AGNST DEWEY 2",width="2" ;
+
+// us-anes-1948TS-vars.V480018
+create variable V480018 in us-anes-1948TS-vars ;
+let V480018 classification="V480018",datatype="N",name="V480018",name[label]="DID R VOTE/FOR WHOM",width="1" ;
+
+// us-anes-1948TS-vars.V480019
+create variable V480019 in us-anes-1948TS-vars ;
+let V480019 classification="V480019",datatype="N",name="V480019",name[label]="WN DECIDE FOR WHOM TO VT",width="1" ;
+
+// us-anes-1948TS-vars.V480020
+create variable V480020 in us-anes-1948TS-vars ;
+let V480020 classification="V480020",datatype="N",name="V480020",name[label]="CNSD VT FOR SOMEONE ELSE",width="2" ;
+
+// us-anes-1948TS-vars.V480021a
+create variable V480021a in us-anes-1948TS-vars ;
+let V480021a classification="V480021",datatype="N",name="V480021a",name[label]="XWHY DID NOT VT FOR HIM 1",width="1" ;
+
+// us-anes-1948TS-vars.V480021b
+create variable V480021b in us-anes-1948TS-vars ;
+let V480021b classification="V480021",datatype="N",name="V480021b",name[label]="XWHY DID NOT VT FOR HIM 2",width="1" ;
+
+// us-anes-1948TS-vars.V480022a
+create variable V480022a in us-anes-1948TS-vars ;
+let V480022a classification="V480022",datatype="N",name="V480022a",name[label]="WHY VT THE WAY YOU DID 1",width="2" ;
+
+// us-anes-1948TS-vars.V480022b
+create variable V480022b in us-anes-1948TS-vars ;
+let V480022b classification="V480022",datatype="N",name="V480022b",name[label]="WHY VT THE WAY YOU DID 2",width="2" ;
+
+// us-anes-1948TS-vars.V480023
+create variable V480023 in us-anes-1948TS-vars ;
+let V480023 classification="V480023",datatype="N",name="V480023",name[label]="VOTED STRAIGHT TICKET",width="1" ;
+
+// us-anes-1948TS-vars.V480024
+create variable V480024 in us-anes-1948TS-vars ;
+let V480024 classification="V480024",datatype="N",name="V480024",name[label]="R NOT VT-IF VT,FOR WHOM",width="1" ;
+
+// us-anes-1948TS-vars.V480025a
+create variable V480025a in us-anes-1948TS-vars ;
+let V480025a classification="V480025",datatype="N",name="V480025a",name[label]="R NOT VT-WHY DID NOT VT 1",width="2" ;
+
+// us-anes-1948TS-vars.V480025b
+create variable V480025b in us-anes-1948TS-vars ;
+let V480025b classification="V480025",datatype="N",name="V480025b",name[label]="R NOT VT-WHY DID NOT VT 2",width="2" ;
+
+// us-anes-1948TS-vars.V480026
+create variable V480026 in us-anes-1948TS-vars ;
+let V480026 classification="V480026",datatype="N",name="V480026",name[label]="R NOT VT-WAS R REG TO VT",width="1" ;
+
+// us-anes-1948TS-vars.V480027
+create variable V480027 in us-anes-1948TS-vars ;
+let V480027 classification="V480027",datatype="N",name="V480027",name[label]="VTD IN PRVS PRESL ELCTN",width="1" ;
+
+// us-anes-1948TS-vars.V480028
+create variable V480028 in us-anes-1948TS-vars ;
+let V480028 classification="V480028",datatype="N",name="V480028",name[label]="VTD FOR WHOM IN 1944",width="1" ;
+
+// us-anes-1948TS-vars.V480029
+create variable V480029 in us-anes-1948TS-vars ;
+let V480029 classification="V480029",datatype="N",name="V480029",name[label]="OCCUPATION OF HEAD",width="2" ;
+
+// us-anes-1948TS-vars.V480030
+create variable V480030 in us-anes-1948TS-vars ;
+let V480030 classification="V480030",datatype="N",name="V480030",name[label]="HEAD BELONG TO LBR UN",width="1" ;
+
+// us-anes-1948TS-vars.V480031a
+create variable V480031a in us-anes-1948TS-vars ;
+let V480031a classification="V480031",datatype="N",name="V480031a",name[label]="GRPS IDENTIFIED W TRUMAN 1",width="2" ;
+
+// us-anes-1948TS-vars.V480031b
+create variable V480031b in us-anes-1948TS-vars ;
+let V480031b classification="V480031",datatype="N",name="V480031b",name[label]="GRPS IDENTIFIED W TRUMAN 2",width="2" ;
+
+// us-anes-1948TS-vars.V480031c
+create variable V480031c in us-anes-1948TS-vars ;
+let V480031c classification="V480031",datatype="N",name="V480031c",name[label]="GRPS IDENTIFIED W TRUMAN 3",width="2" ;
+
+// us-anes-1948TS-vars.V480032a
+create variable V480032a in us-anes-1948TS-vars ;
+let V480032a classification="V480032",datatype="N",name="V480032a",name[label]="GRPS IDENTIFIED W DEWEY 1",width="2" ;
+
+// us-anes-1948TS-vars.V480032b
+create variable V480032b in us-anes-1948TS-vars ;
+let V480032b classification="V480032",datatype="N",name="V480032b",name[label]="GRPS IDENTIFIED W DEWEY 2",width="2" ;
+
+// us-anes-1948TS-vars.V480032c
+create variable V480032c in us-anes-1948TS-vars ;
+let V480032c classification="V480032",datatype="N",name="V480032c",name[label]="GRPS IDENTIFIED W DEWEY 3",width="2" ;
+
+// us-anes-1948TS-vars.V480033a
+create variable V480033a in us-anes-1948TS-vars ;
+let V480033a classification="V480033",datatype="N",name="V480033a",name[label]="ISSUES CONNECTED W TRMN 1",width="2" ;
+
+// us-anes-1948TS-vars.V480033b
+create variable V480033b in us-anes-1948TS-vars ;
+let V480033b classification="V480033",datatype="N",name="V480033b",name[label]="ISSUES CONNECTED W TRMN 2",width="2" ;
+
+// us-anes-1948TS-vars.V480034a
+create variable V480034a in us-anes-1948TS-vars ;
+let V480034a classification="V480034",datatype="N",name="V480034a",name[label]="ISSUES CONNECTED W DEWEY 1",width="2" ;
+
+// us-anes-1948TS-vars.V480034b
+create variable V480034b in us-anes-1948TS-vars ;
+let V480034b classification="V480034",datatype="N",name="V480034b",name[label]="ISSUES CONNECTED W DEWEY 2",width="2" ;
+
+// us-anes-1948TS-vars.V480035a
+create variable V480035a in us-anes-1948TS-vars ;
+let V480035a classification="V480035",datatype="N",name="V480035a",name[label]="PERSONAL ATTRIBUTE TRMN 1",width="2" ;
+
+// us-anes-1948TS-vars.V480035b
+create variable V480035b in us-anes-1948TS-vars ;
+let V480035b classification="V480035",datatype="N",name="V480035b",name[label]="PERSONAL ATTRIBUTE TRMN 2",width="2" ;
+
+// us-anes-1948TS-vars.V480036a
+create variable V480036a in us-anes-1948TS-vars ;
+let V480036a classification="V480036",datatype="N",name="V480036a",name[label]="PERSONAL ATTRIBUTE DEWEY 1",width="2" ;
+
+// us-anes-1948TS-vars.V480036b
+create variable V480036b in us-anes-1948TS-vars ;
+let V480036b classification="V480036",datatype="N",name="V480036b",name[label]="PERSONAL ATTRIBUTE DEWEY 2",width="2" ;
+
+// us-anes-1948TS-vars.V480037
+create variable V480037 in us-anes-1948TS-vars ;
+let V480037 classification="V480037",datatype="N",name="V480037",name[label]="CMPN INCIDENTS MENTIONED",width="1" ;
+
+// us-anes-1948TS-vars.V480038
+create variable V480038 in us-anes-1948TS-vars ;
+let V480038 classification="V480038",datatype="N",name="V480038",name[label]="41-PRESLELCTN PLAN TO VT",width="1" ;
+
+// us-anes-1948TS-vars.V480039
+create variable V480039 in us-anes-1948TS-vars ;
+let V480039 classification="V480039",datatype="N",name="V480039",name[label]="41-PLAN TO VT REP/DEM",width="1" ;
+
+// us-anes-1948TS-vars.V480040
+create variable V480040 in us-anes-1948TS-vars ;
+let V480040 classification="V480040",datatype="N",name="V480040",name[label]="41-USA'S CNCRN W OTHERS",width="1" ;
+
+// us-anes-1948TS-vars.V480041
+create variable V480041 in us-anes-1948TS-vars ;
+let V480041 classification="V480041",datatype="N",name="V480041",name[label]="41-SATISD USA TWRD RUSS",width="1" ;
+
+// us-anes-1948TS-vars.V480042
+create variable V480042 in us-anes-1948TS-vars ;
+let V480042 classification="V480042",datatype="N",name="V480042",name[label]="41-INFORMATION LEVEL",width="1" ;
+
+// us-anes-1948TS-vars.V480043
+create variable V480043 in us-anes-1948TS-vars ;
+let V480043 classification="V480043",datatype="N",name="V480043",name[label]="41-USA GV IN,AGRT RUSS",width="1" ;
+
+// us-anes-1948TS-vars.V480044
+create variable V480044 in us-anes-1948TS-vars ;
+let V480044 classification="V480044",datatype="N",name="V480044",name[label]="41-USA-RUSS AGRT VIA U.N",width="1" ;
+
+// us-anes-1948TS-vars.V480045
+create variable V480045 in us-anes-1948TS-vars ;
+let V480045 classification="V480045",datatype="N",name="V480045",name[label]="SEX OF RESPONDENT",width="1" ;
+
+// us-anes-1948TS-vars.V480046
+create variable V480046 in us-anes-1948TS-vars ;
+let V480046 classification="V480046",datatype="N",name="V480046",name[label]="RACE OF RESPONDENT",width="1" ;
+
+// us-anes-1948TS-vars.V480047
+create variable V480047 in us-anes-1948TS-vars ;
+let V480047 classification="V480047",datatype="N",name="V480047",name[label]="AGE OF RESPONDENT",width="1" ;
+
+// us-anes-1948TS-vars.V480048
+create variable V480048 in us-anes-1948TS-vars ;
+let V480048 classification="V480048",datatype="N",name="V480048",name[label]="EDUCATION OF RESPONDENT",width="1" ;
+
+// us-anes-1948TS-vars.V480049
+create variable V480049 in us-anes-1948TS-vars ;
+let V480049 classification="V480049",datatype="N",name="V480049",name[label]="TOTAL 1948 INCOME",width="1" ;
+
+// us-anes-1948TS-vars.V480050
+create variable V480050 in us-anes-1948TS-vars ;
+let V480050 classification="V480050",datatype="N",name="V480050",name[label]="RELIGIOUS PREFERENCE",width="1" ;

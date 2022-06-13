@@ -1,0 +1,192 @@
+#
+# AUTO GENERATED RULES
+#
+
+# us-anes-1948TS-vars.V480003 [autogen]
+assert null(us-anes-1948TS-vars.V480003) or validCode(us-anes-1948TS-vars.V480003);
+
+# us-anes-1948TS-vars.V480004 [autogen]
+assert null(us-anes-1948TS-vars.V480004) or validCode(us-anes-1948TS-vars.V480004);
+
+# us-anes-1948TS-vars.V480005 [autogen]
+assert null(us-anes-1948TS-vars.V480005) or validCode(us-anes-1948TS-vars.V480005);
+
+# us-anes-1948TS-vars.V480006 [autogen]
+assert null(us-anes-1948TS-vars.V480006) or validCode(us-anes-1948TS-vars.V480006);
+
+# us-anes-1948TS-vars.V480007 [autogen]
+assert null(us-anes-1948TS-vars.V480007) or validCode(us-anes-1948TS-vars.V480007);
+
+# us-anes-1948TS-vars.V480008 [autogen]
+assert null(us-anes-1948TS-vars.V480008) or validCode(us-anes-1948TS-vars.V480008);
+
+# us-anes-1948TS-vars.V480009 [autogen]
+assert null(us-anes-1948TS-vars.V480009) or validCode(us-anes-1948TS-vars.V480009);
+
+# us-anes-1948TS-vars.V480010 [autogen]
+assert null(us-anes-1948TS-vars.V480010) or validCode(us-anes-1948TS-vars.V480010);
+
+# us-anes-1948TS-vars.V480011 [autogen]
+assert null(us-anes-1948TS-vars.V480011) or validCode(us-anes-1948TS-vars.V480011);
+
+# us-anes-1948TS-vars.V480012 [autogen]
+assert null(us-anes-1948TS-vars.V480012) or validCode(us-anes-1948TS-vars.V480012);
+
+# us-anes-1948TS-vars.V480013 [autogen]
+assert null(us-anes-1948TS-vars.V480013) or validCode(us-anes-1948TS-vars.V480013);
+
+# us-anes-1948TS-vars.V480014a [autogen]
+assert null(us-anes-1948TS-vars.V480014a) or validCode(us-anes-1948TS-vars.V480014a);
+
+# us-anes-1948TS-vars.V480014b [autogen]
+assert null(us-anes-1948TS-vars.V480014b) or validCode(us-anes-1948TS-vars.V480014b);
+
+# us-anes-1948TS-vars.V480015a [autogen]
+assert null(us-anes-1948TS-vars.V480015a) or validCode(us-anes-1948TS-vars.V480015a);
+
+# us-anes-1948TS-vars.V480015b [autogen]
+assert null(us-anes-1948TS-vars.V480015b) or validCode(us-anes-1948TS-vars.V480015b);
+
+# us-anes-1948TS-vars.V480016a [autogen]
+assert null(us-anes-1948TS-vars.V480016a) or validCode(us-anes-1948TS-vars.V480016a);
+
+# us-anes-1948TS-vars.V480016b [autogen]
+assert null(us-anes-1948TS-vars.V480016b) or validCode(us-anes-1948TS-vars.V480016b);
+
+# us-anes-1948TS-vars.V480017a [autogen]
+assert null(us-anes-1948TS-vars.V480017a) or validCode(us-anes-1948TS-vars.V480017a);
+
+# us-anes-1948TS-vars.V480017b [autogen]
+assert null(us-anes-1948TS-vars.V480017b) or validCode(us-anes-1948TS-vars.V480017b);
+
+# us-anes-1948TS-vars.V480018 [autogen]
+assert null(us-anes-1948TS-vars.V480018) or validCode(us-anes-1948TS-vars.V480018);
+
+# us-anes-1948TS-vars.V480019 [autogen]
+assert null(us-anes-1948TS-vars.V480019) or validCode(us-anes-1948TS-vars.V480019);
+
+# us-anes-1948TS-vars.V480020 [autogen]
+assert null(us-anes-1948TS-vars.V480020) or validCode(us-anes-1948TS-vars.V480020);
+
+# us-anes-1948TS-vars.V480021a [autogen]
+assert null(us-anes-1948TS-vars.V480021a) or validCode(us-anes-1948TS-vars.V480021a);
+
+# us-anes-1948TS-vars.V480021b [autogen]
+assert null(us-anes-1948TS-vars.V480021b) or validCode(us-anes-1948TS-vars.V480021b);
+
+# us-anes-1948TS-vars.V480022a [autogen]
+assert null(us-anes-1948TS-vars.V480022a) or validCode(us-anes-1948TS-vars.V480022a);
+
+# us-anes-1948TS-vars.V480022b [autogen]
+assert null(us-anes-1948TS-vars.V480022b) or validCode(us-anes-1948TS-vars.V480022b);
+
+# us-anes-1948TS-vars.V480023 [autogen]
+assert null(us-anes-1948TS-vars.V480023) or validCode(us-anes-1948TS-vars.V480023);
+
+# us-anes-1948TS-vars.V480024 [autogen]
+assert null(us-anes-1948TS-vars.V480024) or validCode(us-anes-1948TS-vars.V480024);
+
+# us-anes-1948TS-vars.V480025a [autogen]
+assert null(us-anes-1948TS-vars.V480025a) or validCode(us-anes-1948TS-vars.V480025a);
+
+# us-anes-1948TS-vars.V480025b [autogen]
+assert null(us-anes-1948TS-vars.V480025b) or validCode(us-anes-1948TS-vars.V480025b);
+
+# us-anes-1948TS-vars.V480026 [autogen]
+assert null(us-anes-1948TS-vars.V480026) or validCode(us-anes-1948TS-vars.V480026);
+
+# us-anes-1948TS-vars.V480027 [autogen]
+assert null(us-anes-1948TS-vars.V480027) or validCode(us-anes-1948TS-vars.V480027);
+
+# us-anes-1948TS-vars.V480028 [autogen]
+assert null(us-anes-1948TS-vars.V480028) or validCode(us-anes-1948TS-vars.V480028);
+
+# us-anes-1948TS-vars.V480029 [autogen]
+assert null(us-anes-1948TS-vars.V480029) or validCode(us-anes-1948TS-vars.V480029);
+
+# us-anes-1948TS-vars.V480030 [autogen]
+assert null(us-anes-1948TS-vars.V480030) or validCode(us-anes-1948TS-vars.V480030);
+
+# us-anes-1948TS-vars.V480031a [autogen]
+assert null(us-anes-1948TS-vars.V480031a) or validCode(us-anes-1948TS-vars.V480031a);
+
+# us-anes-1948TS-vars.V480031b [autogen]
+assert null(us-anes-1948TS-vars.V480031b) or validCode(us-anes-1948TS-vars.V480031b);
+
+# us-anes-1948TS-vars.V480031c [autogen]
+assert null(us-anes-1948TS-vars.V480031c) or validCode(us-anes-1948TS-vars.V480031c);
+
+# us-anes-1948TS-vars.V480032a [autogen]
+assert null(us-anes-1948TS-vars.V480032a) or validCode(us-anes-1948TS-vars.V480032a);
+
+# us-anes-1948TS-vars.V480032b [autogen]
+assert null(us-anes-1948TS-vars.V480032b) or validCode(us-anes-1948TS-vars.V480032b);
+
+# us-anes-1948TS-vars.V480032c [autogen]
+assert null(us-anes-1948TS-vars.V480032c) or validCode(us-anes-1948TS-vars.V480032c);
+
+# us-anes-1948TS-vars.V480033a [autogen]
+assert null(us-anes-1948TS-vars.V480033a) or validCode(us-anes-1948TS-vars.V480033a);
+
+# us-anes-1948TS-vars.V480033b [autogen]
+assert null(us-anes-1948TS-vars.V480033b) or validCode(us-anes-1948TS-vars.V480033b);
+
+# us-anes-1948TS-vars.V480034a [autogen]
+assert null(us-anes-1948TS-vars.V480034a) or validCode(us-anes-1948TS-vars.V480034a);
+
+# us-anes-1948TS-vars.V480034b [autogen]
+assert null(us-anes-1948TS-vars.V480034b) or validCode(us-anes-1948TS-vars.V480034b);
+
+# us-anes-1948TS-vars.V480035a [autogen]
+assert null(us-anes-1948TS-vars.V480035a) or validCode(us-anes-1948TS-vars.V480035a);
+
+# us-anes-1948TS-vars.V480035b [autogen]
+assert null(us-anes-1948TS-vars.V480035b) or validCode(us-anes-1948TS-vars.V480035b);
+
+# us-anes-1948TS-vars.V480036a [autogen]
+assert null(us-anes-1948TS-vars.V480036a) or validCode(us-anes-1948TS-vars.V480036a);
+
+# us-anes-1948TS-vars.V480036b [autogen]
+assert null(us-anes-1948TS-vars.V480036b) or validCode(us-anes-1948TS-vars.V480036b);
+
+# us-anes-1948TS-vars.V480037 [autogen]
+assert null(us-anes-1948TS-vars.V480037) or validCode(us-anes-1948TS-vars.V480037);
+
+# us-anes-1948TS-vars.V480038 [autogen]
+assert null(us-anes-1948TS-vars.V480038) or validCode(us-anes-1948TS-vars.V480038);
+
+# us-anes-1948TS-vars.V480039 [autogen]
+assert null(us-anes-1948TS-vars.V480039) or validCode(us-anes-1948TS-vars.V480039);
+
+# us-anes-1948TS-vars.V480040 [autogen]
+assert null(us-anes-1948TS-vars.V480040) or validCode(us-anes-1948TS-vars.V480040);
+
+# us-anes-1948TS-vars.V480041 [autogen]
+assert null(us-anes-1948TS-vars.V480041) or validCode(us-anes-1948TS-vars.V480041);
+
+# us-anes-1948TS-vars.V480042 [autogen]
+assert null(us-anes-1948TS-vars.V480042) or validCode(us-anes-1948TS-vars.V480042);
+
+# us-anes-1948TS-vars.V480043 [autogen]
+assert null(us-anes-1948TS-vars.V480043) or validCode(us-anes-1948TS-vars.V480043);
+
+# us-anes-1948TS-vars.V480044 [autogen]
+assert null(us-anes-1948TS-vars.V480044) or validCode(us-anes-1948TS-vars.V480044);
+
+# us-anes-1948TS-vars.V480045 [autogen]
+assert null(us-anes-1948TS-vars.V480045) or validCode(us-anes-1948TS-vars.V480045);
+
+# us-anes-1948TS-vars.V480046 [autogen]
+assert null(us-anes-1948TS-vars.V480046) or validCode(us-anes-1948TS-vars.V480046);
+
+# us-anes-1948TS-vars.V480047 [autogen]
+assert null(us-anes-1948TS-vars.V480047) or validCode(us-anes-1948TS-vars.V480047);
+
+# us-anes-1948TS-vars.V480048 [autogen]
+assert null(us-anes-1948TS-vars.V480048) or validCode(us-anes-1948TS-vars.V480048);
+
+# us-anes-1948TS-vars.V480049 [autogen]
+assert null(us-anes-1948TS-vars.V480049) or validCode(us-anes-1948TS-vars.V480049);
+
+# us-anes-1948TS-vars.V480050 [autogen]
+assert null(us-anes-1948TS-vars.V480050) or validCode(us-anes-1948TS-vars.V480050);
