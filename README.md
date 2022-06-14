@@ -1,10 +1,10 @@
 # metasheet
 
-A Python library for generating metadata around statistical and scientific datasets in various formats from an Excel or Google spreadsheet. 
+A Python library for generating metadata and scripts around statistical and scientific datasets in various formats from an Excel or Google spreadsheet. 
 
-Metasheet is aimed at supporting the [GO FAIR](https://www.go-fair.org/) initiative and the [DDI](https://www.ddialliance.org) specification by enabling users to rapidly and easily capture codebook like documentation, or maintain classifications, variables, and other resource banks. Typical users are data librarians, SQL database administrators, and application developers. 
+Metasheet is aimed at supporting the [GO FAIR](https://www.go-fair.org/) initiative by enabling users to rapidly and easily capture codebook like documentation, or maintain classifications, variables, and other resource banks using simple spreadsheets templates. This information is used by metasheet to generate various outputs such as and [DDI](https://www.ddialliance.org) XML, SQL scripts, and other useful files. Typical users are data librarians, SQL database administrators, and application developers. 
 
-To use the tool, metadata managers or curators only need to be familiar with Google Sheet or Excel. Running the metasheet utility to generate various outputs requires Python 3 to be installed on your computer and being able to call metasheet form the command line. No Python knowledge or programming experience are required.
+To use the tool, (meta)data managers or curators only need to be familiar with Google Sheet or Excel. Running the metasheet utility to generate various outputs requires Python 3 to be installed on your computer and being able to call metasheet from the command line. No Python knowledge or programming experience are required.
 
 Currently supported output formats include:
 
@@ -13,11 +13,11 @@ Currently supported output formats include:
 - pandas: code for reading data in Python Pandas dataframe
 - rds: JSON format used by MTNA Rich Data Services
 - sts: Stat/Transfer syntax that can be used with the software MTNA SledgeHammer for reading data
-- sql: Various SQL syntaxes. Currently supported options includes monetdb, mssql, mysql, postgres, vertica
+- sql: Various SQL syntaxes (monetdb, mssql, mysql, postgres, vertica)
 
-The package is extendible and additional serializer can easily be created.
+The package is extensible and additional serializers can easily be created.
 
-Metasheet was initially designed by [Metadata Technology North America](https://www.mtna.us) as an internal utility to facilitate the capture of metadata for bulk loading into its platform repositories. It has been transitioned as an open source utility to help support and encourage the adoption of standards and best practices.
+Metasheet was initially designed by [Metadata Technology North America](https://www.mtna.us) as an internal utility to facilitate the capture of metadata for bulk loading into its platform repositories. It has been transitioned into an open source utility to support and encourage the adoption of standards and best practices.
 
 ## How it works
 
